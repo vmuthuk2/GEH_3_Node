@@ -1,0 +1,80 @@
+2018-May-10 15:29:29.024957 : PosixMain.cpp : Status(4):
+	adatper config not set
+2018-May-10 15:29:29.025498 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-May-10 15:29:29.026530 : CAdapterFactory.cpp : Status(4):
+	Plug and play devices disabled.
+2018-May-10 15:29:29.026644 : CAdapterFactory.cpp : Status(4):
+	MQTT client entered
+2018-May-10 15:29:29.189273 : CMqttAdapter.cpp : Notice(5):
+	Subscribed to MQTT topic LVSST/1/JSON
+2018-May-10 15:29:29.199805 : CMqttAdapter.cpp : Notice(5):
+	Subscribed to MQTT topic LVSST/1/AOUT/#
+2018-May-10 15:29:29.210337 : CMqttAdapter.cpp : Notice(5):
+	Subscribed to MQTT topic LVSST/1/DOUT/#
+2018-May-10 15:29:29.220826 : CMqttAdapter.cpp : Notice(5):
+	Subscribed to MQTT topic LVSST/1/ACK
+2018-May-10 15:29:29.221226 : CAdapterFactory.cpp : Status(4):
+	MQTT client enabled 4.
+2018-May-10 15:29:29.221299 : CAdapterFactory.cpp : Status(4):
+	System will start without adapters.
+2018-May-10 15:29:29.221540 : CAdapterFactory.cpp : Status(4):
+	Starting the adapter i/o service.
+2018-May-10 15:29:29.221665 : CConnectionManager.cpp : Warn(3):
+	EP = 10.76.56.82:5001
+2018-May-10 15:29:29.221927 : GroupManagement.cpp : Notice(5):
+	Registering peer barbaro:5001
+2018-May-10 15:29:29.222002 : GroupManagement.cpp : Notice(5):
+	Registering peer barbaro:5002
+2018-May-10 15:29:29.222063 : GroupManagement.cpp : Notice(5):
+	Registering peer curlin:5004
+2018-May-10 15:29:29.222125 : GroupManagement.cpp : Notice(5):
+	Registering peer gloming:5003
+2018-May-10 15:29:29.222189 : GroupManagement.cpp : Notice(5):
+	All peers added 4
+2018-May-10 15:29:29.222301 : GroupManagement.cpp : Notice(5):
+	! barbaro:5001 added to peer set
+2018-May-10 15:29:29.222465 : GroupManagement.cpp : Notice(5):
+	! barbaro:5002 added to peer set
+2018-May-10 15:29:29.222569 : GroupManagement.cpp : Notice(5):
+	! curlin:5004 added to peer set
+2018-May-10 15:29:29.222680 : GroupManagement.cpp : Notice(5):
+	! gloming:5003 added to peer set
+2018-May-10 15:29:29.222788 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 441
+2018-May-10 15:29:29.222883 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289384 (barbaro:5002)
+2018-May-10 15:29:29.222946 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 454
+2018-May-10 15:29:29.223009 : GroupManagement.cpp : Notice(5):
+	+ State Change NORMAL : 457
+2018-May-10 15:29:29.224123 : CConnectionManager.cpp : Warn(3):
+	EP = [::1]:5002
+2018-May-10 15:29:29.227157 : GroupManagement.cpp : Notice(5):
+	Updated peer set (UPDATE)
+2018-May-10 15:29:29.266019 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient1/1:Connect
+2018-May-10 15:29:29.266228 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient1/1:Connect
+2018-May-10 15:29:29.266373 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: DGIClient1
+2018-May-10 15:29:29.555766 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 1) for 1645 ms
+2018-May-10 15:29:29.555981 : CBroker.cpp : Notice(5):
+	Phase: vvc for 1645ms offset 00:00:00
+2018-May-10 15:29:29.556057 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 15:29:29.556129 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+ --------------------VVC ---------------------------------
+2018-May-10 15:29:29.556330 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: barbaro:5002
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1

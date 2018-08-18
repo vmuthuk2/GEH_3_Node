@@ -1,0 +1,3498 @@
+2018-May-10 12:14:59.891323 : PosixMain.cpp : Status(4):
+	adatper config not set
+2018-May-10 12:14:59.891941 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-May-10 12:14:59.893067 : CAdapterFactory.cpp : Status(4):
+	Plug and play devices disabled.
+2018-May-10 12:14:59.893204 : CAdapterFactory.cpp : Status(4):
+	MQTT client entered
+2018-May-10 12:15:00.055661 : CMqttAdapter.cpp : Notice(5):
+	Subscribed to MQTT topic LVSST/1/JSON
+2018-May-10 12:15:00.066165 : CMqttAdapter.cpp : Notice(5):
+	Subscribed to MQTT topic LVSST/1/AOUT/#
+2018-May-10 12:15:00.076659 : CMqttAdapter.cpp : Notice(5):
+	Subscribed to MQTT topic LVSST/1/DOUT/#
+2018-May-10 12:15:00.087339 : CMqttAdapter.cpp : Notice(5):
+	Subscribed to MQTT topic LVSST/1/ACK
+2018-May-10 12:15:00.087694 : CAdapterFactory.cpp : Status(4):
+	MQTT client enabled 4.
+2018-May-10 12:15:00.087896 : CAdapterFactory.cpp : Status(4):
+	System will start without adapters.
+2018-May-10 12:15:00.088242 : CAdapterFactory.cpp : Status(4):
+	Starting the adapter i/o service.
+2018-May-10 12:15:00.088460 : CConnectionManager.cpp : Warn(3):
+	EP = 10.76.56.82:5001
+2018-May-10 12:15:00.088919 : GroupManagement.cpp : Notice(5):
+	Registering peer barbaro:5001
+2018-May-10 12:15:00.089027 : GroupManagement.cpp : Notice(5):
+	Registering peer barbaro:5002
+2018-May-10 12:15:00.089108 : GroupManagement.cpp : Notice(5):
+	Registering peer curlin:5004
+2018-May-10 12:15:00.089188 : GroupManagement.cpp : Notice(5):
+	Registering peer gloming:5003
+2018-May-10 12:15:00.089263 : GroupManagement.cpp : Notice(5):
+	All peers added 4
+2018-May-10 12:15:00.089336 : GroupManagement.cpp : Notice(5):
+	! barbaro:5001 added to peer set
+2018-May-10 12:15:00.089404 : GroupManagement.cpp : Notice(5):
+	! barbaro:5002 added to peer set
+2018-May-10 12:15:00.089468 : GroupManagement.cpp : Notice(5):
+	! curlin:5004 added to peer set
+2018-May-10 12:15:00.089531 : GroupManagement.cpp : Notice(5):
+	! gloming:5003 added to peer set
+2018-May-10 12:15:00.089596 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 441
+2018-May-10 12:15:00.089663 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289384 (barbaro:5002)
+2018-May-10 12:15:00.089731 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 454
+2018-May-10 12:15:00.089796 : GroupManagement.cpp : Notice(5):
+	+ State Change NORMAL : 457
+2018-May-10 12:15:00.090587 : CConnectionManager.cpp : Warn(3):
+	EP = [::1]:5002
+2018-May-10 12:15:00.092730 : GroupManagement.cpp : Notice(5):
+	Updated peer set (UPDATE)
+2018-May-10 12:15:00.129953 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient1/1:Connect
+2018-May-10 12:15:00.130217 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient1/1:Connect
+2018-May-10 12:15:00.130341 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: DGIClient1
+2018-May-10 12:15:00.422186 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 1) for 3628 ms
+2018-May-10 12:15:00.422393 : CBroker.cpp : Notice(5):
+	Phase: vvc for 3628ms offset 00:00:00
+2018-May-10 12:15:00.422453 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:00.422524 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+ --------------------VVC ---------------------------------
+2018-May-10 12:15:00.422736 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: barbaro:5002
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:00.423420 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:00.423505 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:02.067597 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:02.067790 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:02.068184 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/8) does not exist
+2018-May-10 12:15:02.395316 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:02.395512 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:02.395715 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/11) does not exist
+2018-May-10 12:15:02.449263 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:02.449488 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:02.449722 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/9) does not exist
+2018-May-10 12:15:02.692648 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:02.692861 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:02.693152 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/13) does not exist
+2018-May-10 12:15:04.050813 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-May-10 12:15:04.051035 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-May-10 12:15:04.051498 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:15:04.051658 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:15:04.052120 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10100000000000000000000000000000
+2018-May-10 12:15:04.052288 : GroupManagement.cpp : Status(4):
+	Group Float : 7.00649e-45
+2018-May-10 12:15:04.052582 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289384 Leader:barbaro:5002
+SYSTEM NODES
+Node: barbaro:5001 State: Unknown
+Node: barbaro:5002 State: Up (Me, Coordinator)
+Node: curlin:5004 State: Unknown
+Node: gloming:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528267
+
+2018-May-10 12:15:04.053476 : CConnectionManager.cpp : Warn(3):
+	EP = 10.76.56.99:5004
+2018-May-10 12:15:04.054142 : CConnectionManager.cpp : Warn(3):
+	EP = 10.76.56.194:5003
+2018-May-10 12:15:04.194662 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2018-May-10 12:15:04.194810 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289385 (barbaro:5001) 
+2018-May-10 12:15:04.195207 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2018-May-10 12:15:04.405530 : GroupManagement.cpp : Notice(5):
+	+ State change: NORMAL: 944
+2018-May-10 12:15:04.405794 : GroupManagement.cpp : Notice(5):
+	Updated Peer Set.
+2018-May-10 12:15:04.584696 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 316 ms
+2018-May-10 12:15:04.584853 : CBroker.cpp : Notice(5):
+	Phase: sc for 316ms offset 00:00:00
+2018-May-10 12:15:04.585011 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:04.585127 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:15:04.901567 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:15:04.901769 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-May-10 12:15:04.902312 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:15:04.902525 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: barbaro:5001
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:04.903652 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:04.903788 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:07.692371 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:07.692600 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:07.692904 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/8) does not exist
+2018-May-10 12:15:08.017066 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:08.017282 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:08.017531 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/11) does not exist
+2018-May-10 12:15:08.071690 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:08.071860 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:08.072060 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/9) does not exist
+2018-May-10 12:15:08.359577 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:08.359722 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:08.359866 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/13) does not exist
+2018-May-10 12:15:09.001550 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:15:09.001791 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00
+2018-May-10 12:15:09.001919 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:15:09.002068 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:15:09.002255 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01100000000000000000000000000000
+2018-May-10 12:15:09.002410 : GroupManagement.cpp : Status(4):
+	Group Float : 8.40779e-45
+2018-May-10 12:15:09.002679 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289385 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Unknown
+Node: gloming:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.527901
+
+2018-May-10 12:15:09.251812 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient2/1:Connect
+2018-May-10 12:15:09.252008 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient2/1:Connect
+2018-May-10 12:15:09.252127 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: DGIClient2
+2018-May-10 12:15:09.532317 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:15:09.532516 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-May-10 12:15:09.532627 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:09.532756 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:15:09.851068 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:15:09.851351 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-May-10 12:15:09.851483 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:09.852519 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:09.852645 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:10.088828 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-May-10 12:15:10.089698 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.0004325
+2018-May-10 12:15:10.090218 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.0007625
+2018-May-10 12:15:13.364615 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:13.364807 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:13.365080 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/8) does not exist
+2018-May-10 12:15:13.702615 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:13.702810 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:13.703022 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/11) does not exist
+2018-May-10 12:15:13.757051 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:13.757219 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:13.757417 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/9) does not exist
+2018-May-10 12:15:13.950731 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-May-10 12:15:13.950934 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-May-10 12:15:13.951062 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:15:13.951201 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:15:13.951404 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01100000000000000000000000000000
+2018-May-10 12:15:13.951578 : GroupManagement.cpp : Status(4):
+	Group Float : 8.40779e-45
+2018-May-10 12:15:13.951835 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289385 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Unknown
+Node: gloming:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528917
+
+2018-May-10 12:15:14.001454 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:14.001643 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:14.001798 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/13) does not exist
+2018-May-10 12:15:14.095851 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2018-May-10 12:15:14.096035 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289385 (gloming:5003) 
+2018-May-10 12:15:14.096360 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2018-May-10 12:15:14.306093 : GroupManagement.cpp : Notice(5):
+	+ State change: NORMAL: 944
+2018-May-10 12:15:14.306376 : GroupManagement.cpp : Notice(5):
+	Updated Peer Set.
+2018-May-10 12:15:14.482413 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:15:14.482639 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-May-10 12:15:14.482755 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:14.482888 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:15:14.801288 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:15:14.801513 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-May-10 12:15:14.801623 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:15:14.801801 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: gloming:5003
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:14.803061 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:14.803358 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:14.803912 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:15:14.804050 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:15.613753 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient3/1:Connect
+2018-May-10 12:15:15.613935 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient3/1:Connect
+2018-May-10 12:15:15.614072 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: DGIClient3
+2018-May-10 12:15:15.618460 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 2.76493
+2018-May-10 12:15:18.900952 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-May-10 12:15:18.901258 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-May-10 12:15:18.901367 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:15:18.901504 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:15:18.901706 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01101000000000000000000000000000
+2018-May-10 12:15:18.901870 : GroupManagement.cpp : Status(4):
+	Group Float : 3.08286e-44
+2018-May-10 12:15:18.902282 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289385 Leader:gloming:5003
+SYSTEM NODES
+Node: barbaro:5001 State: Up (In Group)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Unknown
+Node: gloming:5003 State: Up (Coordinator)
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528694
+
+2018-May-10 12:15:18.990267 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:18.990414 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:18.990587 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/8) does not exist
+2018-May-10 12:15:19.045067 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2018-May-10 12:15:19.045229 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289386 (gloming:5003) 
+2018-May-10 12:15:19.045605 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2018-May-10 12:15:19.255601 : GroupManagement.cpp : Notice(5):
+	+ State change: NORMAL: 944
+2018-May-10 12:15:19.255770 : GroupManagement.cpp : Notice(5):
+	Updated Peer Set.
+2018-May-10 12:15:19.324492 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:19.324665 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:19.324869 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/11) does not exist
+2018-May-10 12:15:19.379483 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:19.379646 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:19.379835 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/9) does not exist
+2018-May-10 12:15:19.432851 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:15:19.433052 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-May-10 12:15:19.433148 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:19.433264 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:15:19.433947 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:19.434033 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:19.434216 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/13) does not exist
+2018-May-10 12:15:19.751569 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:15:19.751800 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-May-10 12:15:19.751922 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:15:19.752056 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: gloming:5003
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:19.754704 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:19.754863 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:19.756408 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:15:19.756531 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:19.756907 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:15:19.757024 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:20.089779 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to -00:00:00.000189
+2018-May-10 12:15:20.090420 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.00044025
+2018-May-10 12:15:20.091021 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 1.38293
+2018-May-10 12:15:20.091477 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.0009245
+2018-May-10 12:15:23.850991 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-May-10 12:15:23.851312 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.000189
+2018-May-10 12:15:23.851464 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:15:23.851599 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:15:23.851796 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 00111000000000000000000000000000
+2018-May-10 12:15:23.851966 : GroupManagement.cpp : Status(4):
+	Group Float : 3.92364e-44
+2018-May-10 12:15:23.852205 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289386 Leader:gloming:5003
+SYSTEM NODES
+Node: barbaro:5001 State: Unknown
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (Coordinator)
+FID state: 0
+Current Skew: -00:00:00.000189
+Time left in phase: 00:00:00.528803
+
+2018-May-10 12:15:24.382768 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:15:24.382909 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.000189
+2018-May-10 12:15:24.382966 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:24.383040 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:15:24.553638 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:24.553850 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:24.554090 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/8) does not exist
+2018-May-10 12:15:24.701266 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:15:24.701474 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.000189
+2018-May-10 12:15:24.701550 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:24.702650 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:24.702784 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:24.703438 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:15:24.703577 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:24.703933 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:15:24.704067 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:24.881748 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:24.881933 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:24.882149 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/11) does not exist
+2018-May-10 12:15:24.936674 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:24.936878 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:24.937094 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/9) does not exist
+2018-May-10 12:15:25.181896 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:25.182081 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:25.182310 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/13) does not exist
+2018-May-10 12:15:28.800801 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-May-10 12:15:28.801035 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.000189
+2018-May-10 12:15:28.801120 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:15:28.801207 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:15:28.801333 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 00111000000000000000000000000000
+2018-May-10 12:15:28.801451 : GroupManagement.cpp : Status(4):
+	Group Float : 3.92364e-44
+2018-May-10 12:15:28.801718 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289386 Leader:gloming:5003
+SYSTEM NODES
+Node: barbaro:5001 State: Unknown
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (Coordinator)
+FID state: 0
+Current Skew: -00:00:00.000189
+Time left in phase: 00:00:00.529101
+
+2018-May-10 12:15:28.904091 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2018-May-10 12:15:28.904241 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289387 (barbaro:5001) 
+2018-May-10 12:15:28.904765 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2018-May-10 12:15:29.113482 : GroupManagement.cpp : Notice(5):
+	+ State change: NORMAL: 944
+2018-May-10 12:15:29.113702 : GroupManagement.cpp : Notice(5):
+	Updated Peer Set.
+2018-May-10 12:15:29.332339 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:15:29.332567 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.000189
+2018-May-10 12:15:29.332653 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:29.332780 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:15:29.651116 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:15:29.651321 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.000189
+2018-May-10 12:15:29.651404 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:15:29.651545 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: barbaro:5001
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:29.653049 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:29.653212 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:29.653879 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:15:29.653989 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:29.654488 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:15:29.654651 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:30.090447 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.345540
+2018-May-10 12:15:30.436917 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.000426
+2018-May-10 12:15:30.437442 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.922241
+2018-May-10 12:15:30.437867 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.000940667
+2018-May-10 12:15:30.515639 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:30.515785 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:30.515929 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/8) does not exist
+2018-May-10 12:15:30.847266 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:30.847478 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:30.847721 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/11) does not exist
+2018-May-10 12:15:30.907980 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:30.908192 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:30.908423 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/9) does not exist
+2018-May-10 12:15:31.152033 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:31.152240 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:31.152495 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/13) does not exist
+2018-May-10 12:15:34.096391 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 184 ms
+2018-May-10 12:15:34.096600 : CBroker.cpp : Notice(5):
+	Phase: gm for 184ms offset 00:00:00.345540
+2018-May-10 12:15:34.096694 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:15:34.096805 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:15:34.096968 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:15:34.097091 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:15:34.097290 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289387 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.345540
+Time left in phase: 00:00:00.183111
+
+2018-May-10 12:15:34.281940 : CBroker.cpp : Notice(5):
+	Phase: sc for 320ms offset 00:00:00.345540
+2018-May-10 12:15:34.282099 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:34.282190 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:15:34.602515 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4098 ms
+2018-May-10 12:15:34.602705 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4098ms offset 00:00:00.345540
+2018-May-10 12:15:34.602775 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:34.603949 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:34.604065 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:34.948314 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:15:34.948536 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:34.949059 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:15:34.949184 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:36.140644 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:36.140825 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:36.141075 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/8) does not exist
+2018-May-10 12:15:36.470262 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:36.470484 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:36.470666 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/11) does not exist
+2018-May-10 12:15:36.525183 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:36.525323 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:36.525453 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/9) does not exist
+2018-May-10 12:15:36.768218 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:36.768403 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:36.768627 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/13) does not exist
+2018-May-10 12:15:38.701017 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:15:38.701227 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00.345540
+2018-May-10 12:15:38.701333 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:15:38.701450 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:15:38.701573 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:15:38.701712 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:15:38.701959 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289387 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.345540
+Time left in phase: 00:00:00.528082
+
+2018-May-10 12:15:38.842568 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 441
+2018-May-10 12:15:38.842735 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289385 (barbaro:5002)
+2018-May-10 12:15:38.842830 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 454
+2018-May-10 12:15:38.842940 : GroupManagement.cpp : Notice(5):
+	+ State Change NORMAL : 457
+2018-May-10 12:15:38.843273 : GroupManagement.cpp : Notice(5):
+	Updated peer set (UPDATE)
+2018-May-10 12:15:39.155740 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2018-May-10 12:15:39.155888 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289388 (barbaro:5001) 
+2018-May-10 12:15:39.156234 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2018-May-10 12:15:39.231556 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-May-10 12:15:39.231849 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00.345540
+2018-May-10 12:15:39.231985 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:39.232104 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:15:39.551451 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:15:39.551677 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00.345540
+2018-May-10 12:15:39.551776 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:15:39.551938 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: barbaro:5002
+2018-May-10 12:15:39.552162 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: barbaro:5001
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:39.553644 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:39.553800 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:39.898603 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:15:39.898789 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:39.899371 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:15:39.899508 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:40.436966 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.136794
+2018-May-10 12:15:40.229026 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.00042575
+2018-May-10 12:15:40.229595 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.691902
+2018-May-10 12:15:40.230119 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.000972875
+2018-May-10 12:15:41.570892 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:41.571076 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/8:0.0
+2018-May-10 12:15:41.571253 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/8) does not exist
+2018-May-10 12:15:41.911447 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:41.911639 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/11:0.0
+2018-May-10 12:15:41.911799 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/11) does not exist
+2018-May-10 12:15:41.967950 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:41.968143 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/9:0.0
+2018-May-10 12:15:41.968368 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/9) does not exist
+2018-May-10 12:15:42.210157 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:42.210323 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedLVSST/1/AOUT/13:0.0
+2018-May-10 12:15:42.210519 : CMqttAdapter.cpp : Warn(3):
+	Device Signal (LVSST,AOUT/13) does not exist
+2018-May-10 12:15:43.442308 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 0) for 208 ms
+2018-May-10 12:15:43.442545 : CBroker.cpp : Notice(5):
+	Phase: vvc for 208ms offset 00:00:00.136794
+2018-May-10 12:15:43.650896 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00.136794
+2018-May-10 12:15:43.651034 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:15:43.651118 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:15:43.651214 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 441
+2018-May-10 12:15:43.651295 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289386 (barbaro:5002)
+2018-May-10 12:15:43.651399 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 454
+2018-May-10 12:15:43.651490 : GroupManagement.cpp : Notice(5):
+	+ State Change NORMAL : 457
+2018-May-10 12:15:43.651785 : GroupManagement.cpp : Notice(5):
+	Updated peer set (UPDATE)
+2018-May-10 12:15:43.897102 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2018-May-10 12:15:43.897290 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289389 (barbaro:5001) 
+2018-May-10 12:15:43.897776 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2018-May-10 12:15:44.100984 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST2/1:Connect
+2018-May-10 12:15:44.101155 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST2/1:Connect
+2018-May-10 12:15:44.101277 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST2
+2018-May-10 12:15:44.108485 : GroupManagement.cpp : Notice(5):
+	+ State change: NORMAL: 944
+2018-May-10 12:15:44.108682 : GroupManagement.cpp : Notice(5):
+	Updated Peer Set.
+2018-May-10 12:15:44.142625 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DCDESD/1:Connect
+2018-May-10 12:15:44.142788 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DCDESD/1:Connect
+2018-May-10 12:15:44.142875 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: DCDESD
+2018-May-10 12:15:44.143202 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/LVSST/1:Connect
+2018-May-10 12:15:44.143352 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/LVSST/1:Connect
+2018-May-10 12:15:44.143475 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: LVSST
+2018-May-10 12:15:44.181884 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-May-10 12:15:44.182074 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00.136794
+2018-May-10 12:15:44.182171 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:44.182281 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:15:44.501661 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:15:44.501929 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00.136794
+2018-May-10 12:15:44.502045 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:15:44.502236 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: barbaro:5002
+2018-May-10 12:15:44.502427 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: barbaro:5001
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:44.503922 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:44.504050 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:44.639754 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:15:44.641289 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:44.641737 : StateCollection.cpp : Warn(3):
+	Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+ 2018-May-10 12:15:44.642058 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:15:44.642166 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:48.601477 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:15:48.601798 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00.136794
+2018-May-10 12:15:48.601887 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:15:48.601965 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:15:48.602078 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:15:48.602187 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:15:48.602426 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.136794
+Time left in phase: 00:00:00.528073
+
+2018-May-10 12:15:49.132058 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:15:49.132288 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00.136794
+2018-May-10 12:15:49.132385 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:49.132489 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:15:49.450779 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-May-10 12:15:49.450994 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.136794
+2018-May-10 12:15:49.451150 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.136794
+2018-May-10 12:15:49.451265 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:49.452743 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:49.452899 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:49.589912 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:15:49.590510 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:49.591234 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:15:49.591379 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:50.229093 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.059719
+2018-May-10 12:15:50.152810 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.0004255
+2018-May-10 12:15:50.153337 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.553697
+2018-May-10 12:15:50.153801 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.0009825
+2018-May-10 12:15:53.474492 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 0) for 76 ms
+2018-May-10 12:15:53.474815 : CBroker.cpp : Notice(5):
+	Phase: vvc for 76ms offset 00:00:00.059719
+2018-May-10 12:15:53.551202 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00.059719
+2018-May-10 12:15:53.551355 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:15:53.551459 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:15:53.551575 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:15:53.551703 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:15:53.551875 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.059719
+Time left in phase: 00:00:00.529268
+
+2018-May-10 12:15:54.082465 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:15:54.082696 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00.059719
+2018-May-10 12:15:54.082780 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:54.082864 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:15:54.401155 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:15:54.401473 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00.059719
+2018-May-10 12:15:54.401665 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:54.403419 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:54.403570 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:54.461786 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:15:54.461910 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:54.462388 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:15:54.462510 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:58.501011 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:15:58.501349 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00.059719
+2018-May-10 12:15:58.501480 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:15:58.501616 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:15:58.501811 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:15:58.501969 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:15:58.502223 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.059719
+Time left in phase: 00:00:00.527802
+
+2018-May-10 12:15:59.031900 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-May-10 12:15:59.032187 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00.059719
+2018-May-10 12:15:59.032303 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:15:59.032422 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:15:59.351714 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:15:59.351941 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00.059719
+2018-May-10 12:15:59.352051 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:15:59.353535 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:15:59.353650 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:59.412074 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:15:59.412249 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:15:59.412949 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:15:59.413239 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:00.152959 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.023479
+2018-May-10 12:16:00.117775 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.00044925
+2018-May-10 12:16:00.118695 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.00101642
+2018-May-10 12:16:00.119126 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.461662
+2018-May-10 12:16:03.415083 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 0) for 35 ms
+2018-May-10 12:16:03.415317 : CBroker.cpp : Notice(5):
+	Phase: vvc for 35ms offset 00:00:00.023479
+2018-May-10 12:16:03.450606 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00.023479
+2018-May-10 12:16:03.450766 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:16:03.450891 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:16:03.451042 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:16:03.451183 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:16:03.451399 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.023479
+Time left in phase: 00:00:00.529141
+
+2018-May-10 12:16:03.982017 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:16:03.982228 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00.023479
+2018-May-10 12:16:03.982331 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:16:03.982442 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:16:04.300726 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-May-10 12:16:04.300957 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.023479
+2018-May-10 12:16:04.301161 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.023479
+2018-May-10 12:16:04.301286 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:16:04.302875 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:16:04.303021 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:04.325946 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:16:04.326231 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:04.326896 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:16:04.327261 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:08.401609 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:16:08.401945 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00.023479
+2018-May-10 12:16:08.402285 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:16:08.402457 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:16:08.402661 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:16:08.402811 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:16:08.403069 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.023479
+Time left in phase: 00:00:00.527554
+
+2018-May-10 12:16:08.932724 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:16:08.932963 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00.023479
+2018-May-10 12:16:08.933089 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:16:08.933227 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:16:09.251538 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:16:09.251776 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00.023479
+2018-May-10 12:16:09.251908 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:16:09.253456 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:16:09.253618 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:09.275840 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:16:09.276032 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:09.276758 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:16:09.276880 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:10.117529 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.004157
+2018-May-10 12:16:10.099287 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.395816
+2018-May-10 12:16:10.099881 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.000508571
+2018-May-10 12:16:10.100354 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.00104271
+2018-May-10 12:16:13.331869 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 0) for 19 ms
+2018-May-10 12:16:13.332202 : CBroker.cpp : Notice(5):
+	Phase: vvc for 19ms offset 00:00:00.004157
+2018-May-10 12:16:13.351558 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00.004157
+2018-May-10 12:16:13.351707 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:16:13.351831 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:16:13.352024 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:16:13.352167 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:16:13.352435 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.004157
+Time left in phase: 00:00:00.529061
+
+2018-May-10 12:16:13.883069 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 317 ms
+2018-May-10 12:16:13.883297 : CBroker.cpp : Notice(5):
+	Phase: sc for 317ms offset 00:00:00.004157
+2018-May-10 12:16:13.883384 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:16:13.883465 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:16:14.200724 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-May-10 12:16:14.200954 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.004157
+2018-May-10 12:16:14.201152 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.004157
+2018-May-10 12:16:14.201243 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:16:14.202669 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:16:14.202811 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:14.206970 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:16:14.207189 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:14.207850 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:16:14.207981 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:18.301502 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:16:18.301709 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00.004157
+2018-May-10 12:16:18.301815 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:16:18.301949 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:16:18.302110 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:16:18.302242 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:16:18.302489 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.004157
+Time left in phase: 00:00:00.528042
+
+2018-May-10 12:16:18.832101 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:16:18.832314 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00.004157
+2018-May-10 12:16:18.832427 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:16:18.832538 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:16:19.150819 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-May-10 12:16:19.151051 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.004157
+2018-May-10 12:16:19.151184 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.004157
+2018-May-10 12:16:19.151291 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:16:19.152577 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:16:19.152703 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:19.156643 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:16:19.156843 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:19.157385 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:16:19.157526 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:19.157685 : StateCollection.cpp : Warn(3):
+	   reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    cont2018-May-10 12:16:20.099078 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to -00:00:00.006773
+2018-May-10 12:16:20.088995 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.000502188
+2018-May-10 12:16:20.089601 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.346458
+2018-May-10 12:16:20.090051 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.00104825
+2018-May-10 12:16:23.240600 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 0) for 10 ms
+2018-May-10 12:16:23.240929 : CBroker.cpp : Notice(5):
+	Phase: vvc for 10ms offset -00:00:00.006773
+2018-May-10 12:16:23.251309 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.006773
+2018-May-10 12:16:23.251562 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:16:23.251726 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:16:23.252033 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:16:23.252260 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:16:23.252812 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.006773
+Time left in phase: 00:00:00.528436
+
+2018-May-10 12:16:23.784056 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 316 ms
+2018-May-10 12:16:23.784290 : CBroker.cpp : Notice(5):
+	Phase: sc for 316ms offset -00:00:00.006773
+2018-May-10 12:16:23.784396 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:16:23.784520 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:16:24.100794 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-May-10 12:16:24.100976 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset -00:00:00.006773
+2018-May-10 12:16:24.101125 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset -00:00:00.006773
+2018-May-10 12:16:24.101245 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:16:24.101405 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:16:24.101514 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:24.101677 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:16:24.101761 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:16:24.103099 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:16:24.103234 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:28.201520 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:16:28.201814 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset -00:00:00.006773
+2018-May-10 12:16:28.201969 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:16:28.202142 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:16:28.202377 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:16:28.202524 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:16:28.202817 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.006773
+Time left in phase: 00:00:00.527721
+
+2018-May-10 12:16:28.732557 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:16:28.732788 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.006773
+2018-May-10 12:16:28.732908 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:16:28.733035 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:16:29.051326 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:16:29.051560 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.006773
+2018-May-10 12:16:29.051680 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:16:29.051889 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:16:29.052052 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:29.052326 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:16:29.052458 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:16:29.053973 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:16:29.054174 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:30.089009 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to -00:00:00.013250
+2018-May-10 12:16:30.083348 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.000495333
+2018-May-10 12:16:30.084051 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.308072
+2018-May-10 12:16:30.084490 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.001055
+2018-May-10 12:16:33.144521 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 0) for 6 ms
+2018-May-10 12:16:33.144753 : CBroker.cpp : Notice(5):
+	Phase: vvc for 6ms offset -00:00:00.013250
+2018-May-10 12:16:33.151075 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.013250
+2018-May-10 12:16:33.151227 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:16:33.151350 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:16:33.151536 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:16:33.151727 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:16:33.152008 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.013250
+Time left in phase: 00:00:00.529006
+
+2018-May-10 12:16:33.682677 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:16:33.683007 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.013250
+2018-May-10 12:16:33.683141 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:16:33.683312 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:16:34.001622 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:16:34.001924 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.013250
+2018-May-10 12:16:34.002027 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:16:34.002185 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:16:34.002297 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:34.002526 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:16:34.002618 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:16:34.004077 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:16:34.004196 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:38.101304 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:16:38.101637 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset -00:00:00.013250
+2018-May-10 12:16:38.101788 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:16:38.101919 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:16:38.102125 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:16:38.102293 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:16:38.102583 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.013250
+Time left in phase: 00:00:00.527735
+
+2018-May-10 12:16:38.632199 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:16:38.632440 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.013250
+2018-May-10 12:16:38.632564 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:16:38.632662 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:16:38.950927 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-May-10 12:16:38.951104 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset -00:00:00.013250
+2018-May-10 12:16:38.951255 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset -00:00:00.013250
+2018-May-10 12:16:38.951331 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:16:38.951484 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:16:38.951590 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:38.951880 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:16:38.951984 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:16:38.953482 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:16:38.953638 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:40.083387 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to -00:00:00.017168
+2018-May-10 12:16:40.080242 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.0004883
+2018-May-10 12:16:40.080763 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.277351
+2018-May-10 12:16:40.081190 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.0010498
+2018-May-10 12:16:43.047680 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 0) for 3 ms
+2018-May-10 12:16:43.047936 : CBroker.cpp : Notice(5):
+	Phase: vvc for 3ms offset -00:00:00.017168
+2018-May-10 12:16:43.051241 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.017168
+2018-May-10 12:16:43.051386 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:16:43.051530 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:16:43.051783 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:16:43.051920 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:16:43.052155 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.017168
+Time left in phase: 00:00:00.529019
+
+2018-May-10 12:16:43.582627 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:16:43.582825 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.017168
+2018-May-10 12:16:43.582941 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:16:43.583062 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:16:43.901285 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:16:43.902499 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.017168
+2018-May-10 12:16:43.902634 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:16:43.902802 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:16:43.902975 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:43.903182 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:16:43.903300 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:16:43.905193 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:16:43.905352 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:48.001985 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:16:48.002191 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset -00:00:00.017168
+2018-May-10 12:16:48.002667 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:16:48.002830 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:16:48.003028 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:16:48.003171 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:16:48.003426 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.017168
+Time left in phase: 00:00:00.527579
+
+2018-May-10 12:16:48.533012 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 317 ms
+2018-May-10 12:16:48.533193 : CBroker.cpp : Notice(5):
+	Phase: sc for 317ms offset -00:00:00.017168
+2018-May-10 12:16:48.533273 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:16:48.533347 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:16:48.850581 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-May-10 12:16:48.850818 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset -00:00:00.017168
+2018-May-10 12:16:48.851016 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset -00:00:00.017168
+2018-May-10 12:16:48.851124 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:16:48.851308 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:16:48.851414 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:48.851566 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:16:48.851643 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:16:48.853201 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:16:48.853310 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:50.080350 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to -00:00:00.019532
+2018-May-10 12:16:50.078908 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.000488136
+2018-May-10 12:16:50.079489 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.252225
+2018-May-10 12:16:50.079996 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.00105718
+2018-May-10 12:16:52.948998 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 0) for 2 ms
+2018-May-10 12:16:52.949220 : CBroker.cpp : Notice(5):
+	Phase: vvc for 2ms offset -00:00:00.019532
+2018-May-10 12:16:52.951465 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.019532
+2018-May-10 12:16:52.951574 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:16:52.951687 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:16:52.951880 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:16:52.952097 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:16:52.952450 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.019532
+Time left in phase: 00:00:00.529018
+
+2018-May-10 12:16:53.483103 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 317 ms
+2018-May-10 12:16:53.483405 : CBroker.cpp : Notice(5):
+	Phase: sc for 317ms offset -00:00:00.019532
+2018-May-10 12:16:53.483542 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:16:53.483663 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:16:53.800966 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-May-10 12:16:53.801214 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset -00:00:00.019532
+2018-May-10 12:16:53.801491 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset -00:00:00.019532
+2018-May-10 12:16:53.801636 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:16:53.801856 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:16:53.802018 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:53.802292 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:16:53.802450 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:16:53.809661 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:16:53.811018 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:57.901901 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:16:57.902398 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset -00:00:00.019532
+2018-May-10 12:16:57.902490 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:16:57.902568 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:16:57.902678 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:16:57.902766 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:16:57.902922 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.019532
+Time left in phase: 00:00:00.527994
+
+2018-May-10 12:16:58.432335 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:16:58.432524 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.019532
+2018-May-10 12:16:58.432621 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:16:58.432700 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:16:58.750898 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-May-10 12:16:58.751098 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset -00:00:00.019532
+2018-May-10 12:16:58.751253 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset -00:00:00.019532
+2018-May-10 12:16:58.751366 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:16:58.751543 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:16:58.751670 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:16:58.751849 : StateCollection.cpp : Warn(3):
+	rol_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_mes2018-May-10 12:16:58.751966 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:16:58.752074 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:16:58.753826 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:16:58.753965 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:00.078840 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to -00:00:00.020953
+2018-May-10 12:17:00.078239 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.000484583
+2018-May-10 12:17:00.078777 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.231281
+2018-May-10 12:17:00.079168 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.00105358
+2018-May-10 12:17:02.850117 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-May-10 12:17:02.850219 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.020953
+2018-May-10 12:17:02.850268 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:17:02.850322 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:17:02.850401 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:17:02.850487 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:17:02.850644 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.020953
+Time left in phase: 00:00:00.529496
+
+2018-May-10 12:17:03.380995 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 1) for 0 ms
+2018-May-10 12:17:03.381220 : CBroker.cpp : Notice(5):
+	Phase: gm for 0ms offset -00:00:00.020953
+2018-May-10 12:17:03.381289 : CBroker.cpp : Notice(5):
+	Phase: sc for 320ms offset -00:00:00.020953
+2018-May-10 12:17:03.381329 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:17:03.381364 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:17:03.701511 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:17:03.701752 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.020953
+2018-May-10 12:17:03.701894 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:17:03.702121 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:17:03.702277 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:03.702536 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:17:03.702688 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:17:03.704693 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:17:03.704850 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:07.801129 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:17:07.801270 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset -00:00:00.020953
+2018-May-10 12:17:07.801364 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:17:07.801457 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:17:07.801638 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:17:07.801753 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:17:07.801935 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.020953
+Time left in phase: 00:00:00.528213
+
+2018-May-10 12:17:08.331430 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-May-10 12:17:08.331673 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset -00:00:00.020953
+2018-May-10 12:17:08.332113 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:17:08.332219 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:17:08.651529 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:17:08.652162 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.020953
+2018-May-10 12:17:08.652262 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:17:08.652425 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:17:08.652520 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:08.652689 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:17:08.652768 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:17:08.653808 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:17:08.653917 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:10.078302 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to -00:00:00.021686
+2018-May-10 12:17:10.078329 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.000478885
+2018-May-10 12:17:10.078949 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.213562
+2018-May-10 12:17:10.079552 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.001059
+2018-May-10 12:17:12.750738 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-May-10 12:17:12.750970 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.021686
+2018-May-10 12:17:12.751105 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:17:12.751453 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:17:12.751666 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:17:12.751828 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:17:12.752110 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.021686
+Time left in phase: 00:00:00.528652
+
+2018-May-10 12:17:13.282698 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:17:13.282929 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.021686
+2018-May-10 12:17:13.283017 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:17:13.283100 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:17:13.601324 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:17:13.601566 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.021686
+2018-May-10 12:17:13.601674 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:17:13.601859 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:17:13.602007 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:13.602235 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:17:13.602378 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:17:13.604271 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:17:13.604396 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:17.700922 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-May-10 12:17:17.701142 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.021686
+2018-May-10 12:17:17.701272 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:17:17.701416 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:17:17.701842 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:17:17.701991 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:17:17.702245 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.021686
+Time left in phase: 00:00:00.528696
+
+2018-May-10 12:17:18.232756 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:17:18.232979 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.021686
+2018-May-10 12:17:18.233108 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:17:18.233246 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:17:18.551522 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:17:18.551753 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.021686
+2018-May-10 12:17:18.551879 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:17:18.552093 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:17:18.552255 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:18.552512 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:17:18.552658 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:17:18.554301 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:17:18.554444 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:20.078450 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to -00:00:00.022056
+2018-May-10 12:17:20.078878 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.000473964
+2018-May-10 12:17:20.079402 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.198372
+2018-May-10 12:17:20.079802 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.00105536
+2018-May-10 12:17:22.650765 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-May-10 12:17:22.650959 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.022056
+2018-May-10 12:17:22.651069 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:17:22.651182 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:17:22.651494 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:17:22.651652 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:17:22.651898 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.022056
+Time left in phase: 00:00:00.528884
+
+2018-May-10 12:17:23.182501 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:17:23.182879 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.022056
+2018-May-10 12:17:23.183021 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:17:23.183162 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:17:23.501395 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:17:23.501620 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.022056
+2018-May-10 12:17:23.501732 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:17:23.501900 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:17:23.502025 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:23.502261 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:17:23.502399 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:17:23.504203 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:17:23.504343 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:27.600949 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-May-10 12:17:27.601167 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.022056
+2018-May-10 12:17:27.601280 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:17:27.601401 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:17:27.601684 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:17:27.601857 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:17:27.602141 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.022056
+Time left in phase: 00:00:00.528827
+
+2018-May-10 12:17:28.132745 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:17:28.132989 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.022056
+2018-May-10 12:17:28.133101 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:17:28.133236 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:17:28.451598 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:17:28.452379 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.022056
+2018-May-10 12:17:28.452910 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:17:28.453702 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:17:28.454307 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:28.455168 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:17:28.455643 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:17:28.456958 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:17:28.457044 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:30.078905 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to -00:00:00.022135
+2018-May-10 12:17:30.079688 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.000473767
+2018-May-10 12:17:30.080255 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.185209
+2018-May-10 12:17:30.080713 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.001057
+2018-May-10 12:17:32.552544 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 528 ms
+2018-May-10 12:17:32.552730 : CBroker.cpp : Notice(5):
+	Phase: gm for 528ms offset -00:00:00.022135
+2018-May-10 12:17:32.552848 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:17:32.552970 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:17:32.553135 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:17:32.553253 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:17:32.553462 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.022135
+Time left in phase: 00:00:00.527095
+
+2018-May-10 12:17:33.082048 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:17:33.082288 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.022135
+2018-May-10 12:17:33.082388 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:17:33.082489 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:17:33.400732 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-May-10 12:17:33.400970 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset -00:00:00.022135
+2018-May-10 12:17:33.401114 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset -00:00:00.022135
+2018-May-10 12:17:33.401194 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:17:33.401327 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:17:33.401426 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:33.401592 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:17:33.401721 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:33.401931 : StateCollection.cpp : Warn(3):
+	sage {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected tReal Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:17:33.403360 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:17:33.403503 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:37.501351 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:17:37.501508 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset -00:00:00.022135
+2018-May-10 12:17:37.501595 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:17:37.501687 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:17:37.501867 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:17:37.502006 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:17:37.502232 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.022135
+Time left in phase: 00:00:00.528135
+
+2018-May-10 12:17:38.031762 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-May-10 12:17:38.031992 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset -00:00:00.022135
+2018-May-10 12:17:38.032106 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:17:38.032231 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:17:38.351459 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:17:38.351665 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.022135
+2018-May-10 12:17:38.351788 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:17:38.351984 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:17:38.352126 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:38.352360 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:17:38.352496 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:17:38.354223 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:17:38.354362 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:40.079666 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to -00:00:00.022013
+2018-May-10 12:17:40.080528 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.000469594
+2018-May-10 12:17:40.081077 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.173687
+2018-May-10 12:17:40.081538 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.00105459
+2018-May-10 12:17:42.451123 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-May-10 12:17:42.451263 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset -00:00:00.022013
+2018-May-10 12:17:42.451334 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:17:42.451409 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:17:42.451564 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:17:42.451705 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:17:42.451932 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.022013
+Time left in phase: 00:00:00.528209
+
+2018-May-10 12:17:42.981407 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-May-10 12:17:42.981618 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset -00:00:00.022013
+2018-May-10 12:17:42.981762 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:17:42.981892 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:17:43.301164 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:17:43.301376 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.022013
+2018-May-10 12:17:43.301513 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:17:43.301729 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:17:43.301871 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:43.302132 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:17:43.302257 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:17:43.303851 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:17:43.304013 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:47.400820 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-May-10 12:17:47.401147 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.022013
+2018-May-10 12:17:47.401328 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:17:47.401471 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:17:47.401666 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:17:47.401775 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:17:47.401950 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.022013
+Time left in phase: 00:00:00.528883
+
+2018-May-10 12:17:47.932445 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:17:47.932626 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.022013
+2018-May-10 12:17:47.932744 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:17:47.932876 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:17:48.251080 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:17:48.251382 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.022013
+2018-May-10 12:17:48.251497 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:17:48.251703 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:17:48.251819 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:48.252016 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:17:48.252128 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:17:48.253577 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:17:48.253694 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:50.080577 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to -00:00:00.021781
+2018-May-10 12:17:50.081731 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (barbaro:5001): 0.000470147
+2018-May-10 12:17:50.082305 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (curlin:5004): 0.163526
+2018-May-10 12:17:50.082719 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (gloming:5003): 0.00105562
+2018-May-10 12:17:52.351003 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-May-10 12:17:52.351228 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.021781
+2018-May-10 12:17:52.351351 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-May-10 12:17:52.351703 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-May-10 12:17:52.351893 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-May-10 12:17:52.352007 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-May-10 12:17:52.352202 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: barbaro:5002, Group: 1804289389 Leader:barbaro:5001
+SYSTEM NODES
+Node: barbaro:5001 State: Up (Coordinator)
+Node: barbaro:5002 State: Up (Me)
+Node: curlin:5004 State: Up (In Group)
+Node: gloming:5003 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.021781
+Time left in phase: 00:00:00.528814
+
+2018-May-10 12:17:52.882728 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-May-10 12:17:52.883013 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.021781
+2018-May-10 12:17:52.883164 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-May-10 12:17:52.883303 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-May-10 12:17:53.201521 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-May-10 12:17:53.201744 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.021781
+2018-May-10 12:17:53.201856 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-May-10 12:17:53.202053 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: curlin:5004
+2018-May-10 12:17:53.202182 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-May-10 12:17:53.202414 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: gloming:5003
+2018-May-10 12:17:53.202545 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+Pload Value sent is:         0
+
+Pload Value sent is:         0
+
+loaded okay
+  -0.1000  -0.1284  -0.1426
+
+Computed Command: -0.1
+Couldn't find device type : SST1 
+SSTs under Slave #1: SST1 
+
+2018-May-10 12:17:53.203901 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: barbaro:5002
+2018-May-10 12:17:53.204015 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3

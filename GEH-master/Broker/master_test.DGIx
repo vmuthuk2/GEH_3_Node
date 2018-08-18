@@ -1,0 +1,81 @@
+2018-Mar-16 15:13:52.833565 : PosixMain.cpp : Status(4):
+	adatper config not set
+2018-Mar-16 15:13:52.833771 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Mar-16 15:13:52.834102 : CAdapterFactory.cpp : Status(4):
+	Plug and play devices disabled.
+2018-Mar-16 15:13:52.834136 : CAdapterFactory.cpp : Status(4):
+	MQTT client entered
+2018-Mar-16 15:13:52.984949 : CAdapterFactory.cpp : Status(4):
+	MQTT client enabled 4.
+2018-Mar-16 15:13:52.985000 : CAdapterFactory.cpp : Status(4):
+	System will start without adapters.
+2018-Mar-16 15:13:52.985095 : CAdapterFactory.cpp : Status(4):
+	Starting the adapter i/o service.
+2018-Mar-16 15:13:52.985182 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.0.1:5003
+2018-Mar-16 15:13:52.985305 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.0.1:5004
+2018-Mar-16 15:13:52.985488 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.0.1:5002
+2018-Mar-16 15:13:52.986023 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5001
+2018-Mar-16 15:13:52.986082 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5002
+2018-Mar-16 15:13:52.986123 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5003
+2018-Mar-16 15:13:52.986157 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5004
+2018-Mar-16 15:13:52.986192 : GroupManagement.cpp : Notice(5):
+	All peers added 4
+2018-Mar-16 15:13:52.986224 : GroupManagement.cpp : Notice(5):
+	! arrogate:5001 added to peer set
+2018-Mar-16 15:13:52.986255 : GroupManagement.cpp : Notice(5):
+	! arrogate:5002 added to peer set
+2018-Mar-16 15:13:52.986287 : GroupManagement.cpp : Notice(5):
+	! arrogate:5003 added to peer set
+2018-Mar-16 15:13:52.986318 : GroupManagement.cpp : Notice(5):
+	! arrogate:5004 added to peer set
+2018-Mar-16 15:13:52.986352 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 441
+2018-Mar-16 15:13:52.986384 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289384 (arrogate:5001)
+2018-Mar-16 15:13:52.986416 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 454
+2018-Mar-16 15:13:52.986448 : GroupManagement.cpp : Notice(5):
+	+ State Change NORMAL : 457
+2018-Mar-16 15:13:52.986759 : CConnectionManager.cpp : Warn(3):
+	EP = [::1]:5001
+2018-Mar-16 15:13:52.987155 : GroupManagement.cpp : Notice(5):
+	Updated peer set (UPDATE)
+2018-Mar-16 15:13:52.987688 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2018-Mar-16 15:13:52.988003 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289386 (arrogate:5002) 
+2018-Mar-16 15:13:52.988183 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2018-Mar-16 15:13:53.028088 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient/1:Connect
+2018-Mar-16 15:13:53.028160 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient/1:Connect
+2018-Mar-16 15:13:53.028211 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: DGIClient
+2018-Mar-16 15:13:53.363835 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 1) for 2287 ms
+2018-Mar-16 15:13:53.363904 : CBroker.cpp : Notice(5):
+	Phase: vvc for 2287ms offset 00:00:00
+2018-Mar-16 15:13:53.364327 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:53.364575 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+ --------------------VVC ---------------------------------
+2018-Mar-16 15:13:53.365013 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: arrogate:5001
+2018-Mar-16 15:13:53.365078 : VoltVarCtrl.cpp : Notice(5):
+	Got Vector from arrogate:5003
+2018-Mar-16 15:13:53.365113 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 1
+2018-Mar-16 15:13:53.365269 : PosixMain.cpp : Fatal(0):
+	Exception caught in Broker: Mat::operator(): index out of bounds
+
+error: Mat::operator(): index out of bounds
