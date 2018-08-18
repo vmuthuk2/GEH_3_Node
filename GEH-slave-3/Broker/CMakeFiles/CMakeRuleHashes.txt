@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+63013628da9882e04cac5d6af6a5265a src/messages/ClockSynchronizer.pb.cc
+c6d0ca8bd258ac38b8aa5917fb75872b src/messages/GroupManagement.pb.cc
+de3a03d7dd7acabd54165740d81141ea src/messages/LoadBalancing.pb.cc
+5699076621081d04982744c6560fd618 src/messages/ModuleMessage.pb.cc
+e12578c8fb1fde318bb40ee6bd8c1a3e src/messages/ProtocolMessage.pb.cc
+fa94ab321b841d4b003c5a7017210f9c src/messages/StateCollection.pb.cc
+abe8327c23a418ae71dfd4e5d1ba24de src/messages/VoltVarCtrl.pb.cc

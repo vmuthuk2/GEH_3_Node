@@ -1,0 +1,12 @@
+2018-Aug-18 09:03:48.598720 : PosixMain.cpp : Status(4):
+	adatper config not set
+2018-Aug-18 09:03:48.599444 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-18 09:03:48.600799 : CAdapterFactory.cpp : Status(4):
+	Plug and play devices disabled.
+2018-Aug-18 09:03:48.600948 : CAdapterFactory.cpp : Status(4):
+	MQTT client entered
+2018-Aug-18 09:04:19.848197 : CMqttAdapter.cpp : Error(2):
+	MQTT Client Connection Failed with Return Code = -1
+2018-Aug-18 09:04:19.848841 : PosixMain.cpp : Fatal(0):
+	Exception caught in Broker: Failed to connect to the MQTT Broker

@@ -1,0 +1,1663 @@
+2018-Mar-16 15:12:53.266360 : PosixMain.cpp : Status(4):
+	adatper config not set
+2018-Mar-16 15:12:53.266583 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Mar-16 15:12:53.266933 : CAdapterFactory.cpp : Status(4):
+	Plug and play devices disabled.
+2018-Mar-16 15:12:53.266994 : CAdapterFactory.cpp : Status(4):
+	MQTT client entered
+2018-Mar-16 15:12:53.427842 : CMqttAdapter.cpp : Notice(5):
+	Subscribed to MQTT topic SST2/1/JSON
+2018-Mar-16 15:12:53.438009 : CMqttAdapter.cpp : Notice(5):
+	Subscribed to MQTT topic SST2/1/AOUT/#
+2018-Mar-16 15:12:53.448197 : CMqttAdapter.cpp : Notice(5):
+	Subscribed to MQTT topic SST2/1/DOUT/#
+2018-Mar-16 15:12:53.458395 : CMqttAdapter.cpp : Notice(5):
+	Subscribed to MQTT topic SST2/1/ACK
+2018-Mar-16 15:12:53.458549 : CAdapterFactory.cpp : Status(4):
+	MQTT client enabled 4.
+2018-Mar-16 15:12:53.458933 : CAdapterFactory.cpp : Status(4):
+	System will start without adapters.
+2018-Mar-16 15:12:53.460284 : CAdapterFactory.cpp : Status(4):
+	Starting the adapter i/o service.
+2018-Mar-16 15:12:53.460419 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.0.1:5001
+2018-Mar-16 15:12:53.460858 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5001
+2018-Mar-16 15:12:53.461243 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5002
+2018-Mar-16 15:12:53.461588 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5003
+2018-Mar-16 15:12:53.461925 : GroupManagement.cpp : Notice(5):
+	Registering peer arrogate:5004
+2018-Mar-16 15:12:53.462263 : GroupManagement.cpp : Notice(5):
+	All peers added 4
+2018-Mar-16 15:12:53.462596 : GroupManagement.cpp : Notice(5):
+	! arrogate:5001 added to peer set
+2018-Mar-16 15:12:53.462933 : GroupManagement.cpp : Notice(5):
+	! arrogate:5002 added to peer set
+2018-Mar-16 15:12:53.463267 : GroupManagement.cpp : Notice(5):
+	! arrogate:5003 added to peer set
+2018-Mar-16 15:12:53.463597 : GroupManagement.cpp : Notice(5):
+	! arrogate:5004 added to peer set
+2018-Mar-16 15:12:53.463943 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 441
+2018-Mar-16 15:12:53.464337 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289384 (arrogate:5003)
+2018-Mar-16 15:12:53.464478 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 454
+2018-Mar-16 15:12:53.464881 : GroupManagement.cpp : Notice(5):
+	+ State Change NORMAL : 457
+2018-Mar-16 15:12:53.465577 : CConnectionManager.cpp : Warn(3):
+	EP = [::1]:5003
+2018-Mar-16 15:12:53.466054 : GroupManagement.cpp : Notice(5):
+	Updated peer set (UPDATE)
+2018-Mar-16 15:12:53.496102 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient2/1:Connect
+2018-Mar-16 15:12:53.496177 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient2/1:Connect
+2018-Mar-16 15:12:53.496229 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: DGIClient2
+2018-Mar-16 15:12:53.796687 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 1) for 2454 ms
+2018-Mar-16 15:12:53.796746 : CBroker.cpp : Notice(5):
+	Phase: vvc for 2454ms offset 00:00:00
+2018-Mar-16 15:12:53.796777 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:12:53.797112 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+ --------------------VVC ---------------------------------
+2018-Mar-16 15:12:53.797994 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: arrogate:5003
+2018-Mar-16 15:12:53.798351 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2018-Mar-16 15:12:53.798682 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 3
+2018-Mar-16 15:12:53.799311 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2018-Mar-16 15:12:53.799837 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 3
+Real Power got from SST1 is 0
+loaded okay
+Couldn't find device type : SST2 
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:12:53.800290 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:12:53.800327 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:12:56.251712 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Mar-16 15:12:56.251768 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00
+2018-Mar-16 15:12:56.252094 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:12:56.252421 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:12:56.252481 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10010000000000000000000000000000
+2018-Mar-16 15:12:56.252522 : GroupManagement.cpp : Status(4):
+	Group Float : 1.26117e-44
+2018-Mar-16 15:12:56.252594 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289384 Leader:arrogate:5003
+SYSTEM NODES
+Node: arrogate:5001 State: Unknown
+Node: arrogate:5002 State: Unknown
+Node: arrogate:5003 State: Up (Me, Coordinator)
+Node: arrogate:5004 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528127
+
+2018-Mar-16 15:12:56.252840 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.1.1:5002
+2018-Mar-16 15:12:56.253013 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.1.1:5004
+2018-Mar-16 15:12:56.391937 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2018-Mar-16 15:12:56.391982 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289385 (arrogate:5001) 
+2018-Mar-16 15:12:56.392097 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2018-Mar-16 15:12:56.602164 : GroupManagement.cpp : Notice(5):
+	+ State change: NORMAL: 944
+2018-Mar-16 15:12:56.602269 : GroupManagement.cpp : Notice(5):
+	Updated Peer Set.
+2018-Mar-16 15:12:56.782160 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-Mar-16 15:12:56.782223 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-Mar-16 15:12:56.782254 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:12:56.782289 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:12:56.959891 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient1/1:Connect
+2018-Mar-16 15:12:56.959949 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient1/1:Connect
+2018-Mar-16 15:12:56.959983 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: DGIClient1
+2018-Mar-16 15:12:57.100364 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Mar-16 15:12:57.100427 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Mar-16 15:12:57.100477 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Mar-16 15:12:57.100509 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-Mar-16 15:12:57.100580 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: arrogate:5001
+Real Power got from SST1 is 0
+loaded okay
+Couldn't find device type : SST2 
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:12:57.100974 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:12:57.101011 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:12:57.102579 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2018-Mar-16 15:12:57.102615 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 3
+2018-Mar-16 15:13:01.117870 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient3/1:Connect
+2018-Mar-16 15:13:01.117928 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient3/1:Connect
+2018-Mar-16 15:13:01.117968 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: DGIClient3
+2018-Mar-16 15:13:01.200586 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Mar-16 15:13:01.200658 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Mar-16 15:13:01.200689 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:13:01.200743 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:13:01.200798 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01010000000000000000000000000000
+2018-Mar-16 15:13:01.200836 : GroupManagement.cpp : Status(4):
+	Group Float : 1.4013e-44
+2018-Mar-16 15:13:01.200908 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289385 Leader:arrogate:5001
+SYSTEM NODES
+Node: arrogate:5001 State: Up (Coordinator)
+Node: arrogate:5002 State: Unknown
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529680
+
+2018-Mar-16 15:13:01.204665 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2018-Mar-16 15:13:01.205396 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289385 (arrogate:5002) 
+2018-Mar-16 15:13:01.206108 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2018-Mar-16 15:13:01.415515 : GroupManagement.cpp : Notice(5):
+	+ State change: NORMAL: 944
+2018-Mar-16 15:13:01.415903 : GroupManagement.cpp : Notice(5):
+	Updated Peer Set.
+2018-Mar-16 15:13:01.731077 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Mar-16 15:13:01.731139 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Mar-16 15:13:01.731170 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:01.731201 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:13:02.050283 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Mar-16 15:13:02.050361 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Mar-16 15:13:02.050415 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Mar-16 15:13:02.050446 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-Mar-16 15:13:02.050523 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: arrogate:5002
+Real Power got from SST1 is 0
+loaded okay
+Couldn't find device type : SST2 
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:13:02.051025 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:13:02.051061 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:02.054532 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from arrogate:5001
+2018-Mar-16 15:13:02.054892 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 3
+2018-Mar-16 15:13:02.055502 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2018-Mar-16 15:13:02.055881 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:02.058093 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2018-Mar-16 15:13:02.058135 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:03.460564 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Mar-16 15:13:03.460805 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.000193
+2018-Mar-16 15:13:03.461124 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5001): 0.000324
+2018-Mar-16 15:13:03.461494 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.0004815
+2018-Mar-16 15:13:06.150511 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Mar-16 15:13:06.150582 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Mar-16 15:13:06.150613 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:13:06.150648 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:13:06.150699 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-Mar-16 15:13:06.150743 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-Mar-16 15:13:06.150813 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529701
+
+2018-Mar-16 15:13:06.680996 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 1) for 0 ms
+2018-Mar-16 15:13:06.681062 : CBroker.cpp : Notice(5):
+	Phase: gm for 0ms offset 00:00:00
+2018-Mar-16 15:13:06.681111 : CBroker.cpp : Notice(5):
+	Phase: sc for 320ms offset 00:00:00
+2018-Mar-16 15:13:06.681141 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:06.681174 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:13:07.001785 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Mar-16 15:13:07.001837 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-Mar-16 15:13:07.001862 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-Mar-16 15:13:07.001985 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2018-Mar-16 15:13:07.002015 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+loaded okay
+Couldn't find device type : SST2 
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:13:07.002357 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2018-Mar-16 15:13:07.002387 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:07.002427 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:13:07.002454 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:11.101876 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Mar-16 15:13:11.101938 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00
+2018-Mar-16 15:13:11.101970 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:13:11.102004 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:13:11.102052 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-Mar-16 15:13:11.102087 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-Mar-16 15:13:11.102146 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528733
+
+2018-Mar-16 15:13:11.631273 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Mar-16 15:13:11.631335 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Mar-16 15:13:11.631369 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:11.631405 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:13:11.950459 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Mar-16 15:13:11.950521 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Mar-16 15:13:11.950570 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Mar-16 15:13:11.950600 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 0
+loaded okay
+Couldn't find device type : SST2 
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:13:11.951136 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:13:11.951171 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:11.954767 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2018-Mar-16 15:13:11.955105 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:11.955565 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2018-Mar-16 15:13:11.955903 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:13.460839 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to -00:00:00.000101
+2018-Mar-16 15:13:13.461147 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.0002345
+2018-Mar-16 15:13:13.461566 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5001): 0.00039
+2018-Mar-16 15:13:13.461712 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.0004915
+2018-Mar-16 15:13:16.050558 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Mar-16 15:13:16.050636 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset -00:00:00.000101
+2018-Mar-16 15:13:16.050967 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:13:16.051257 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:13:16.051562 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-Mar-16 15:13:16.051878 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-Mar-16 15:13:16.052209 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.000101
+Time left in phase: 00:00:00.528357
+
+2018-Mar-16 15:13:16.582665 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-Mar-16 15:13:16.582737 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset -00:00:00.000101
+2018-Mar-16 15:13:16.582769 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:16.582807 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:13:16.901156 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Mar-16 15:13:16.901498 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset -00:00:00.000101
+2018-Mar-16 15:13:16.901798 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-Mar-16 15:13:16.902147 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2018-Mar-16 15:13:16.902454 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 0
+loaded okay
+Couldn't find device type : SST2 
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:13:16.903228 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:13:16.903537 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:16.904252 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2018-Mar-16 15:13:16.904608 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:21.001675 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Mar-16 15:13:21.001929 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset -00:00:00.000101
+2018-Mar-16 15:13:21.001959 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:13:21.001996 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:13:21.002044 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-Mar-16 15:13:21.002078 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-Mar-16 15:13:21.002138 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Up (In Group)
+FID state: 0
+Current Skew: -00:00:00.000101
+Time left in phase: 00:00:00.528540
+
+2018-Mar-16 15:13:21.531272 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Mar-16 15:13:21.531421 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset -00:00:00.000101
+2018-Mar-16 15:13:21.531458 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:21.531494 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:13:21.850550 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Mar-16 15:13:21.850613 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset -00:00:00.000101
+2018-Mar-16 15:13:21.850666 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset -00:00:00.000101
+2018-Mar-16 15:13:21.850697 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 0
+loaded okay
+Couldn't find device type : SST2 
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:13:21.851304 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:13:21.851342 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:21.851392 : StateCollection.cpp : Warn(3):
+	Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  gradient_message {
+    gradient_value: -0.50544702849929457
+    gradient_value: -0.74745937692215036
+    gradient_value: -0.78844619409829308
+    gradient_capture_time: "2018-Mar-16 19:12:51.071249"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  gradient_message {
+    gradient_value: -0.50544702849929457
+    gradient_value: -0.74745937692215036
+    gradient_value: -0.78844619409829308
+    gradient_capture_time: "2018-Mar-16 19:12:52.152372"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  gradient_message {
+    gradient_value: -0.17715610000000007
+    gradient_value: -0.29745951456517633
+    gradient_value: -0.33756010718498575
+    gradient_capture_time: "2018-Mar-16 19:12:57.102325"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  gradient_message {
+    gradient_value: -0.19487171000001727
+    gradient_value: -0.31298308566449579
+    gradient_value: -0.35265313813980531
+    gradient_capture_time: "2018-Mar-16 19:13:02.051968"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    p2018-Mar-16 15:13:21.851431 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2018-Mar-16 15:13:21.851463 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:21.854083 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2018-Mar-16 15:13:21.854127 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:23.408578 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST1/1:Connect
+2018-Mar-16 15:13:23.408640 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST1/1:Connect
+2018-Mar-16 15:13:23.408678 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST1
+2018-Mar-16 15:13:23.461021 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.000157
+2018-Mar-16 15:13:23.461738 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.000255833
+2018-Mar-16 15:13:23.461876 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5001): 0.000374167
+2018-Mar-16 15:13:23.462017 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.000455667
+2018-Mar-16 15:13:25.951036 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Mar-16 15:13:25.951101 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00.000157
+2018-Mar-16 15:13:25.951131 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:13:25.951165 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:13:25.951222 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-Mar-16 15:13:25.951258 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-Mar-16 15:13:25.951327 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000157
+Time left in phase: 00:00:00.528715
+
+2018-Mar-16 15:13:26.480564 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 1) for 0 ms
+2018-Mar-16 15:13:26.480636 : CBroker.cpp : Notice(5):
+	Phase: gm for 0ms offset 00:00:00.000157
+2018-Mar-16 15:13:26.480688 : CBroker.cpp : Notice(5):
+	Phase: sc for 320ms offset 00:00:00.000157
+2018-Mar-16 15:13:26.480717 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:26.480751 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:13:26.551567 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST2/1:Connect
+2018-Mar-16 15:13:26.551633 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST2/1:Connect
+2018-Mar-16 15:13:26.551671 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST2
+2018-Mar-16 15:13:26.552285 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/ACK:ACK
+2018-Mar-16 15:13:26.552334 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/ACK:ACK
+2018-Mar-16 15:13:26.552369 : CMqttAdapter.cpp : Warn(3):
+	Dropped MQTT Message:
+SST2/1/ACK
+ACK
+2018-Mar-16 15:13:26.561753 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/ACK:ACK
+2018-Mar-16 15:13:26.561796 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/ACK:ACK
+2018-Mar-16 15:13:26.561823 : CMqttAdapter.cpp : Warn(3):
+	Dropped MQTT Message:
+SST2/1/ACK
+ACK
+2018-Mar-16 15:13:26.561869 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/ACK:ACK
+2018-Mar-16 15:13:26.561900 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/ACK:ACK
+2018-Mar-16 15:13:26.561927 : CMqttAdapter.cpp : Warn(3):
+	Dropped MQTT Message:
+SST2/1/ACK
+ACK
+2018-Mar-16 15:13:26.561987 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/ACK:ACK
+2018-Mar-16 15:13:26.562018 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/ACK:ACK
+2018-Mar-16 15:13:26.562045 : CMqttAdapter.cpp : Warn(3):
+	Dropped MQTT Message:
+SST2/1/ACK
+ACK
+2018-Mar-16 15:13:26.562093 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST1/1:Connect
+2018-Mar-16 15:13:26.562123 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST1/1:Connect
+2018-Mar-16 15:13:26.562152 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST1
+2018-Mar-16 15:13:26.562179 : CMqttAdapter.cpp : Status(4):
+	Dropped duplicate join message for device SST1
+2018-Mar-16 15:13:26.562224 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST2/1:Connect
+2018-Mar-16 15:13:26.562253 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST2/1:Connect
+2018-Mar-16 15:13:26.562279 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST2
+2018-Mar-16 15:13:26.562304 : CMqttAdapter.cpp : Status(4):
+	Dropped duplicate join message for device SST2
+2018-Mar-16 15:13:26.562367 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/JSON:{"py/object": "freedmqtt.DeviceProfile.DeviceProfile", "DIN": [], "AOUT": [{"py/object": "freedmqtt.DeviceProfile.aout", "index": 0, "name": "Active_Pwr_Fb", "maximum": 1000.0, "value": 300.0, "minimum": -1000.0}], "DOUT": [], "Name_Hash": {"Dev_Pwr_Cap": "DEV_CHAR/4", "Reactive_Pwr_cmdIN": "AIN/0", "Dev_Name": "DEV_CHAR/1", "Dev_Energy_Cap": "DEV_CHAR/5", "Active_Pwr_FbOUT": "AOUT/0", "Dev_SW_Ver": "DEV_CHAR/3", "Vendor_name": "DEV_CHAR/0", "Num_Modules": "DEV_CHAR/6", "Dev_HW_Ver": "DEV_CHAR/2"}, "Topic_Hash": {"AIN/0": "Reactive_Pwr_cmd", "DEV_CHAR/2": "Dev_HW_Ver", "DEV_CHAR/1": "Dev_Name", "DEV_CHAR/0": "Vendor_name", "DEV_CHAR/6": "Num_Modules", "DEV_CHAR/5": "Dev_Energy_Cap", "DEV_CHAR/4": "Dev_Pwr_Cap", "DEV_CHAR/3": "Dev_SW_Ver", "AOUT/0": "Active_Pwr_Fb"}, "file_1": "json/SST2_1.json", "flag": 0, "AIN": [{"py/object": "freedmqtt.DeviceProfile.ain", "index": 0, "name": "Reactive_Pwr_cmd", "maximum": 800.0, "value": 0.0, "minimum": -800.0}], "DEV_CHAR": [{"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 0, "name": "Vendor_name", "value": "FREEDM"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 1, "name": "Dev_Name", "value": "SST2"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 2, "name": "Dev_HW_Ver", "value": 1.0}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 3, "name": "Dev_SW_Ver", "value": "1.00"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 4, "name": "Dev_Pwr_Cap", "value": "5000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 5, "name": "Dev_Energy_Cap", "value": "2000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 6, "name": "Num_Modules", "value": "4"}], "write_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgSvOA=="]]}, "initialized": 1, "native": 1, "start_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgRwuA=="]]}, "change": ["Error"], "app_name": "MQTT"}
+2018-Mar-16 15:13:26.562400 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/JSON:{"py/object": "freedmqtt.DeviceProfile.DeviceProfile", "DIN": [], "AOUT": [{"py/object": "freedmqtt.DeviceProfile.aout", "index": 0, "name": "Active_Pwr_Fb", "maximum": 1000.0, "value": 300.0, "minimum": -1000.0}], "DOUT": [], "Name_Hash": {"Dev_Pwr_Cap": "DEV_CHAR/4", "Reactive_Pwr_cmdIN": "AIN/0", "Dev_Name": "DEV_CHAR/1", "Dev_Energy_Cap": "DEV_CHAR/5", "Active_Pwr_FbOUT": "AOUT/0", "Dev_SW_Ver": "DEV_CHAR/3", "Vendor_name": "DEV_CHAR/0", "Num_Modules": "DEV_CHAR/6", "Dev_HW_Ver": "DEV_CHAR/2"}, "Topic_Hash": {"AIN/0": "Reactive_Pwr_cmd", "DEV_CHAR/2": "Dev_HW_Ver", "DEV_CHAR/1": "Dev_Name", "DEV_CHAR/0": "Vendor_name", "DEV_CHAR/6": "Num_Modules", "DEV_CHAR/5": "Dev_Energy_Cap", "DEV_CHAR/4": "Dev_Pwr_Cap", "DEV_CHAR/3": "Dev_SW_Ver", "AOUT/0": "Active_Pwr_Fb"}, "file_1": "json/SST2_1.json", "flag": 0, "AIN": [{"py/object": "freedmqtt.DeviceProfile.ain", "index": 0, "name": "Reactive_Pwr_cmd", "maximum": 800.0, "value": 0.0, "minimum": -800.0}], "DEV_CHAR": [{"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 0, "name": "Vendor_name", "value": "FREEDM"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 1, "name": "Dev_Name", "value": "SST2"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 2, "name": "Dev_HW_Ver", "value": 1.0}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 3, "name": "Dev_SW_Ver", "value": "1.00"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 4, "name": "Dev_Pwr_Cap", "value": "5000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 5, "name": "Dev_Energy_Cap", "value": "2000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 6, "name": "Num_Modules", "value": "4"}], "write_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgSvOA=="]]}, "initialized": 1, "native": 1, "start_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgRwuA=="]]}, "change": ["Error"], "app_name": "MQTT"}
+2018-Mar-16 15:13:26.562434 : CMqttAdapter.cpp : Status(4):
+	Received JSON for device SST2:
+{"py/object": "freedmqtt.DeviceProfile.DeviceProfile", "DIN": [], "AOUT": [{"py/object": "freedmqtt.DeviceProfile.aout", "index": 0, "name": "Active_Pwr_Fb", "maximum": 1000.0, "value": 300.0, "minimum": -1000.0}], "DOUT": [], "Name_Hash": {"Dev_Pwr_Cap": "DEV_CHAR/4", "Reactive_Pwr_cmdIN": "AIN/0", "Dev_Name": "DEV_CHAR/1", "Dev_Energy_Cap": "DEV_CHAR/5", "Active_Pwr_FbOUT": "AOUT/0", "Dev_SW_Ver": "DEV_CHAR/3", "Vendor_name": "DEV_CHAR/0", "Num_Modules": "DEV_CHAR/6", "Dev_HW_Ver": "DEV_CHAR/2"}, "Topic_Hash": {"AIN/0": "Reactive_Pwr_cmd", "DEV_CHAR/2": "Dev_HW_Ver", "DEV_CHAR/1": "Dev_Name", "DEV_CHAR/0": "Vendor_name", "DEV_CHAR/6": "Num_Modules", "DEV_CHAR/5": "Dev_Energy_Cap", "DEV_CHAR/4": "Dev_Pwr_Cap", "DEV_CHAR/3": "Dev_SW_Ver", "AOUT/0": "Active_Pwr_Fb"}, "file_1": "json/SST2_1.json", "flag": 0, "AIN": [{"py/object": "freedmqtt.DeviceProfile.ain", "index": 0, "name": "Reactive_Pwr_cmd", "maximum": 800.0, "value": 0.0, "minimum": -800.0}], "DEV_CHAR": [{"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 0, "name": "Vendor_name", "value": "FREEDM"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 1, "name": "Dev_Name", "value": "SST2"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 2, "name": "Dev_HW_Ver", "value": 1.0}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 3, "name": "Dev_SW_Ver", "value": "1.00"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 4, "name": "Dev_Pwr_Cap", "value": "5000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 5, "name": "Dev_Energy_Cap", "value": "2000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 6, "name": "Num_Modules", "value": "4"}], "write_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgSvOA=="]]}, "initialized": 1, "native": 1, "start_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgRwuA=="]]}, "change": ["Error"], "app_name": "MQTT"}
+2018-Mar-16 15:13:26.562667 : CMqttAdapter.cpp : Status(4):
+	State property ssss  SST2
+2018-Mar-16 15:13:26.562739 : CMqttAdapter.cpp : Status(4):
+	Set its minimum value to -1000
+2018-Mar-16 15:13:26.562771 : CMqttAdapter.cpp : Status(4):
+	Set its maximum value to 1000
+2018-Mar-16 15:13:26.562796 : CMqttAdapter.cpp : Status(4):
+	State property SST2
+2018-Mar-16 15:13:26.562820 : CMqttAdapter.cpp : Status(4):
+	State property ssss  SST2
+2018-Mar-16 15:13:26.562845 : CMqttAdapter.cpp : Status(4):
+	State property SST2
+2018-Mar-16 15:13:26.562889 : CMqttAdapter.cpp : Status(4):
+	Set its minimum value to -800
+2018-Mar-16 15:13:26.562918 : CMqttAdapter.cpp : Status(4):
+	Set its maximum value to 800
+2018-Mar-16 15:13:26.562943 : CMqttAdapter.cpp : Status(4):
+	State property ssss  SST2
+2018-Mar-16 15:13:26.563065 : CMqttAdapter.cpp : Warn(3):
+	Dropped field DEV_CHAR/Vendor_name due to non-numeric type
+2018-Mar-16 15:13:26.563144 : CMqttAdapter.cpp : Status(4):
+	State property SST2
+2018-Mar-16 15:13:26.563183 : CDevice.cpp : Status(4):
+	CREATED NEW DEVICE:
+SST2
+Types: SST2
+States: AOUT/Active_Pwr_Fb AOUT/Active_Pwr_Fb_maximum AOUT/Active_Pwr_Fb_minimum DEV_CHAR/Dev_Energy_Cap DEV_CHAR/Dev_HW_Ver DEV_CHAR/Dev_Pwr_Cap DEV_CHAR/Dev_SW_Ver DEV_CHAR/Num_Modules
+Commands: AIN/Reactive_Pwr_cmd AIN/Reactive_Pwr_cmd_maximum AIN/Reactive_Pwr_cmd_minimum
+2018-Mar-16 15:13:26.563232 : CDeviceManager.cpp : Status(4):
+	Revealed the hidden device SST2
+2018-Mar-16 15:13:26.563845 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/JSON:{"py/object": "freedmqtt.DeviceProfile.DeviceProfile", "DIN": [], "AOUT": [{"py/object": "freedmqtt.DeviceProfile.aout", "index": 0, "name": "Active_Pwr_Fb", "maximum": 1000.0, "value": 300.0, "minimum": -1000.0}], "DOUT": [], "Name_Hash": {"Dev_Pwr_Cap": "DEV_CHAR/4", "Reactive_Pwr_cmdIN": "AIN/0", "Dev_Name": "DEV_CHAR/1", "Dev_Energy_Cap": "DEV_CHAR/5", "Active_Pwr_FbOUT": "AOUT/0", "Dev_SW_Ver": "DEV_CHAR/3", "Vendor_name": "DEV_CHAR/0", "Num_Modules": "DEV_CHAR/6", "Dev_HW_Ver": "DEV_CHAR/2"}, "Topic_Hash": {"AIN/0": "Reactive_Pwr_cmd", "DEV_CHAR/2": "Dev_HW_Ver", "DEV_CHAR/1": "Dev_Name", "DEV_CHAR/0": "Vendor_name", "DEV_CHAR/6": "Num_Modules", "DEV_CHAR/5": "Dev_Energy_Cap", "DEV_CHAR/4": "Dev_Pwr_Cap", "DEV_CHAR/3": "Dev_SW_Ver", "AOUT/0": "Active_Pwr_Fb"}, "file_1": "json/SST2_1.json", "flag": 0, "AIN": [{"py/object": "freedmqtt.DeviceProfile.ain", "index": 0, "name": "Reactive_Pwr_cmd", "maximum": 800.0, "value": 0.0, "minimum": -800.0}], "DEV_CHAR": [{"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 0, "name": "Vendor_name", "value": "FREEDM"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 1, "name": "Dev_Name", "value": "SST2"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 2, "name": "Dev_HW_Ver", "value": 1.0}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 3, "name": "Dev_SW_Ver", "value": "1.00"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 4, "name": "Dev_Pwr_Cap", "value": "5000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 5, "name": "Dev_Energy_Cap", "value": "2000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 6, "name": "Num_Modules", "value": "4"}], "write_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgSvOA=="]]}, "initialized": 1, "native": 1, "start_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgRwuA=="]]}, "change": ["Error"], "app_name": "MQTT"}
+2018-Mar-16 15:13:26.563893 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/JSON:{"py/object": "freedmqtt.DeviceProfile.DeviceProfile", "DIN": [], "AOUT": [{"py/object": "freedmqtt.DeviceProfile.aout", "index": 0, "name": "Active_Pwr_Fb", "maximum": 1000.0, "value": 300.0, "minimum": -1000.0}], "DOUT": [], "Name_Hash": {"Dev_Pwr_Cap": "DEV_CHAR/4", "Reactive_Pwr_cmdIN": "AIN/0", "Dev_Name": "DEV_CHAR/1", "Dev_Energy_Cap": "DEV_CHAR/5", "Active_Pwr_FbOUT": "AOUT/0", "Dev_SW_Ver": "DEV_CHAR/3", "Vendor_name": "DEV_CHAR/0", "Num_Modules": "DEV_CHAR/6", "Dev_HW_Ver": "DEV_CHAR/2"}, "Topic_Hash": {"AIN/0": "Reactive_Pwr_cmd", "DEV_CHAR/2": "Dev_HW_Ver", "DEV_CHAR/1": "Dev_Name", "DEV_CHAR/0": "Vendor_name", "DEV_CHAR/6": "Num_Modules", "DEV_CHAR/5": "Dev_Energy_Cap", "DEV_CHAR/4": "Dev_Pwr_Cap", "DEV_CHAR/3": "Dev_SW_Ver", "AOUT/0": "Active_Pwr_Fb"}, "file_1": "json/SST2_1.json", "flag": 0, "AIN": [{"py/object": "freedmqtt.DeviceProfile.ain", "index": 0, "name": "Reactive_Pwr_cmd", "maximum": 800.0, "value": 0.0, "minimum": -800.0}], "DEV_CHAR": [{"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 0, "name": "Vendor_name", "value": "FREEDM"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 1, "name": "Dev_Name", "value": "SST2"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 2, "name": "Dev_HW_Ver", "value": 1.0}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 3, "name": "Dev_SW_Ver", "value": "1.00"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 4, "name": "Dev_Pwr_Cap", "value": "5000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 5, "name": "Dev_Energy_Cap", "value": "2000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 6, "name": "Num_Modules", "value": "4"}], "write_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgSvOA=="]]}, "initialized": 1, "native": 1, "start_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgRwuA=="]]}, "change": ["Error"], "app_name": "MQTT"}
+2018-Mar-16 15:13:26.563924 : CMqttAdapter.cpp : Status(4):
+	Dropped JSON for duplicate device SST2
+2018-Mar-16 15:13:26.567758 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/JSON:{"py/object": "freedmqtt.DeviceProfile.DeviceProfile", "DIN": [], "AOUT": [{"py/object": "freedmqtt.DeviceProfile.aout", "index": 0, "name": "Active_Pwr_Fb", "maximum": 1000.0, "value": 300.0, "minimum": -1000.0}], "DOUT": [], "Name_Hash": {"Dev_Pwr_Cap": "DEV_CHAR/4", "Reactive_Pwr_cmdIN": "AIN/0", "Dev_Name": "DEV_CHAR/1", "Dev_Energy_Cap": "DEV_CHAR/5", "Active_Pwr_FbOUT": "AOUT/0", "Dev_SW_Ver": "DEV_CHAR/3", "Vendor_name": "DEV_CHAR/0", "Num_Modules": "DEV_CHAR/6", "Dev_HW_Ver": "DEV_CHAR/2"}, "Topic_Hash": {"AIN/0": "Reactive_Pwr_cmd", "DEV_CHAR/2": "Dev_HW_Ver", "DEV_CHAR/1": "Dev_Name", "DEV_CHAR/0": "Vendor_name", "DEV_CHAR/6": "Num_Modules", "DEV_CHAR/5": "Dev_Energy_Cap", "DEV_CHAR/4": "Dev_Pwr_Cap", "DEV_CHAR/3": "Dev_SW_Ver", "AOUT/0": "Active_Pwr_Fb"}, "file_1": "json/SST2_1.json", "flag": 0, "AIN": [{"py/object": "freedmqtt.DeviceProfile.ain", "index": 0, "name": "Reactive_Pwr_cmd", "maximum": 800.0, "value": 0.0, "minimum": -800.0}], "DEV_CHAR": [{"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 0, "name": "Vendor_name", "value": "FREEDM"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 1, "name": "Dev_Name", "value": "SST2"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 2, "name": "Dev_HW_Ver", "value": 1.0}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 3, "name": "Dev_SW_Ver", "value": "1.00"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 4, "name": "Dev_Pwr_Cap", "value": "5000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 5, "name": "Dev_Energy_Cap", "value": "2000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 6, "name": "Num_Modules", "value": "4"}], "write_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgSvOA=="]]}, "initialized": 1, "native": 1, "start_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgRwuA=="]]}, "change": ["Error"], "app_name": "MQTT"}
+2018-Mar-16 15:13:26.567827 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/JSON:{"py/object": "freedmqtt.DeviceProfile.DeviceProfile", "DIN": [], "AOUT": [{"py/object": "freedmqtt.DeviceProfile.aout", "index": 0, "name": "Active_Pwr_Fb", "maximum": 1000.0, "value": 300.0, "minimum": -1000.0}], "DOUT": [], "Name_Hash": {"Dev_Pwr_Cap": "DEV_CHAR/4", "Reactive_Pwr_cmdIN": "AIN/0", "Dev_Name": "DEV_CHAR/1", "Dev_Energy_Cap": "DEV_CHAR/5", "Active_Pwr_FbOUT": "AOUT/0", "Dev_SW_Ver": "DEV_CHAR/3", "Vendor_name": "DEV_CHAR/0", "Num_Modules": "DEV_CHAR/6", "Dev_HW_Ver": "DEV_CHAR/2"}, "Topic_Hash": {"AIN/0": "Reactive_Pwr_cmd", "DEV_CHAR/2": "Dev_HW_Ver", "DEV_CHAR/1": "Dev_Name", "DEV_CHAR/0": "Vendor_name", "DEV_CHAR/6": "Num_Modules", "DEV_CHAR/5": "Dev_Energy_Cap", "DEV_CHAR/4": "Dev_Pwr_Cap", "DEV_CHAR/3": "Dev_SW_Ver", "AOUT/0": "Active_Pwr_Fb"}, "file_1": "json/SST2_1.json", "flag": 0, "AIN": [{"py/object": "freedmqtt.DeviceProfile.ain", "index": 0, "name": "Reactive_Pwr_cmd", "maximum": 800.0, "value": 0.0, "minimum": -800.0}], "DEV_CHAR": [{"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 0, "name": "Vendor_name", "value": "FREEDM"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 1, "name": "Dev_Name", "value": "SST2"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 2, "name": "Dev_HW_Ver", "value": 1.0}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 3, "name": "Dev_SW_Ver", "value": "1.00"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 4, "name": "Dev_Pwr_Cap", "value": "5000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 5, "name": "Dev_Energy_Cap", "value": "2000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 6, "name": "Num_Modules", "value": "4"}], "write_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgSvOA=="]]}, "initialized": 1, "native": 1, "start_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgRwuA=="]]}, "change": ["Error"], "app_name": "MQTT"}
+2018-Mar-16 15:13:26.567897 : CMqttAdapter.cpp : Status(4):
+	Dropped JSON for duplicate device SST2
+2018-Mar-16 15:13:26.569893 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/JSON:{"py/object": "freedmqtt.DeviceProfile.DeviceProfile", "DIN": [], "AOUT": [{"py/object": "freedmqtt.DeviceProfile.aout", "index": 0, "name": "Active_Pwr_Fb", "maximum": 1000.0, "value": 300.0, "minimum": -1000.0}], "DOUT": [], "Name_Hash": {"Dev_Pwr_Cap": "DEV_CHAR/4", "Reactive_Pwr_cmdIN": "AIN/0", "Dev_Name": "DEV_CHAR/1", "Dev_Energy_Cap": "DEV_CHAR/5", "Active_Pwr_FbOUT": "AOUT/0", "Dev_SW_Ver": "DEV_CHAR/3", "Vendor_name": "DEV_CHAR/0", "Num_Modules": "DEV_CHAR/6", "Dev_HW_Ver": "DEV_CHAR/2"}, "Topic_Hash": {"AIN/0": "Reactive_Pwr_cmd", "DEV_CHAR/2": "Dev_HW_Ver", "DEV_CHAR/1": "Dev_Name", "DEV_CHAR/0": "Vendor_name", "DEV_CHAR/6": "Num_Modules", "DEV_CHAR/5": "Dev_Energy_Cap", "DEV_CHAR/4": "Dev_Pwr_Cap", "DEV_CHAR/3": "Dev_SW_Ver", "AOUT/0": "Active_Pwr_Fb"}, "file_1": "json/SST2_1.json", "flag": 0, "AIN": [{"py/object": "freedmqtt.DeviceProfile.ain", "index": 0, "name": "Reactive_Pwr_cmd", "maximum": 800.0, "value": 0.0, "minimum": -800.0}], "DEV_CHAR": [{"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 0, "name": "Vendor_name", "value": "FREEDM"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 1, "name": "Dev_Name", "value": "SST2"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 2, "name": "Dev_HW_Ver", "value": 1.0}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 3, "name": "Dev_SW_Ver", "value": "1.00"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 4, "name": "Dev_Pwr_Cap", "value": "5000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 5, "name": "Dev_Energy_Cap", "value": "2000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 6, "name": "Num_Modules", "value": "4"}], "write_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgSvOA=="]]}, "initialized": 1, "native": 1, "start_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgRwuA=="]]}, "change": ["Error"], "app_name": "MQTT"}
+2018-Mar-16 15:13:26.569934 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedSST2/1/JSON:{"py/object": "freedmqtt.DeviceProfile.DeviceProfile", "DIN": [], "AOUT": [{"py/object": "freedmqtt.DeviceProfile.aout", "index": 0, "name": "Active_Pwr_Fb", "maximum": 1000.0, "value": 300.0, "minimum": -1000.0}], "DOUT": [], "Name_Hash": {"Dev_Pwr_Cap": "DEV_CHAR/4", "Reactive_Pwr_cmdIN": "AIN/0", "Dev_Name": "DEV_CHAR/1", "Dev_Energy_Cap": "DEV_CHAR/5", "Active_Pwr_FbOUT": "AOUT/0", "Dev_SW_Ver": "DEV_CHAR/3", "Vendor_name": "DEV_CHAR/0", "Num_Modules": "DEV_CHAR/6", "Dev_HW_Ver": "DEV_CHAR/2"}, "Topic_Hash": {"AIN/0": "Reactive_Pwr_cmd", "DEV_CHAR/2": "Dev_HW_Ver", "DEV_CHAR/1": "Dev_Name", "DEV_CHAR/0": "Vendor_name", "DEV_CHAR/6": "Num_Modules", "DEV_CHAR/5": "Dev_Energy_Cap", "DEV_CHAR/4": "Dev_Pwr_Cap", "DEV_CHAR/3": "Dev_SW_Ver", "AOUT/0": "Active_Pwr_Fb"}, "file_1": "json/SST2_1.json", "flag": 0, "AIN": [{"py/object": "freedmqtt.DeviceProfile.ain", "index": 0, "name": "Reactive_Pwr_cmd", "maximum": 800.0, "value": 0.0, "minimum": -800.0}], "DEV_CHAR": [{"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 0, "name": "Vendor_name", "value": "FREEDM"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 1, "name": "Dev_Name", "value": "SST2"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 2, "name": "Dev_HW_Ver", "value": 1.0}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 3, "name": "Dev_SW_Ver", "value": "1.00"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 4, "name": "Dev_Pwr_Cap", "value": "5000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 5, "name": "Dev_Energy_Cap", "value": "2000"}, {"py/object": "freedmqtt.DeviceProfile.dev_char", "index": 6, "name": "Num_Modules", "value": "4"}], "write_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgSvOA=="]]}, "initialized": 1, "native": 1, "start_time": {"py/object": "datetime.datetime", "__reduce__": [{"py/type": "datetime.datetime"}, ["B+IDEA8NGgRwuA=="]]}, "change": ["Error"], "app_name": "MQTT"}
+2018-Mar-16 15:13:26.569965 : CMqttAdapter.cpp : Status(4):
+	Dropped JSON for duplicate device SST2
+2018-Mar-16 15:13:26.800806 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Mar-16 15:13:26.801351 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.000157
+2018-Mar-16 15:13:26.802177 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.000157
+2018-Mar-16 15:13:26.802716 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-Mar-16 15:13:26.803367 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2018-Mar-16 15:13:26.804011 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 300
+loaded okay
+Try to send Qsst to TYPE SST2 
+2018-Mar-16 15:13:26.805749 : VoltVarCtrl.cpp : Status(4):
+	Detected MQTT Device SST2
+
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:13:26.806816 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:13:26.807520 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:26.808091 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2018-Mar-16 15:13:26.808594 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:30.727333 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST3/1:Connect
+2018-Mar-16 15:13:30.727397 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST3/1:Connect
+2018-Mar-16 15:13:30.727434 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST3
+2018-Mar-16 15:13:30.768216 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST1/1:Connect
+2018-Mar-16 15:13:30.768280 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST1/1:Connect
+2018-Mar-16 15:13:30.768318 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST1
+2018-Mar-16 15:13:30.768351 : CMqttAdapter.cpp : Status(4):
+	Dropped duplicate join message for device SST1
+2018-Mar-16 15:13:30.768414 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST2/1:Connect
+2018-Mar-16 15:13:30.768449 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST2/1:Connect
+2018-Mar-16 15:13:30.768480 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST2
+2018-Mar-16 15:13:30.768507 : CMqttAdapter.cpp : Status(4):
+	Dropped duplicate join message for device SST2
+2018-Mar-16 15:13:30.768561 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST3/1:Connect
+2018-Mar-16 15:13:30.768593 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST3/1:Connect
+2018-Mar-16 15:13:30.768623 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST3
+2018-Mar-16 15:13:30.768653 : CMqttAdapter.cpp : Status(4):
+	Dropped duplicate join message for device SST3
+2018-Mar-16 15:13:30.768707 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST3/1:Connect
+2018-Mar-16 15:13:30.768738 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST3/1:Connect
+2018-Mar-16 15:13:30.768768 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST3
+2018-Mar-16 15:13:30.768798 : CMqttAdapter.cpp : Status(4):
+	Dropped duplicate join message for device SST3
+2018-Mar-16 15:13:30.903331 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 527 ms
+2018-Mar-16 15:13:30.903418 : CBroker.cpp : Notice(5):
+	Phase: gm for 527ms offset 00:00:00.000157
+2018-Mar-16 15:13:30.903477 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:13:30.903545 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:13:30.903620 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-Mar-16 15:13:30.903688 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-Mar-16 15:13:30.903793 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000157
+Time left in phase: 00:00:00.526546
+
+2018-Mar-16 15:13:31.431237 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Mar-16 15:13:31.431297 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00.000157
+2018-Mar-16 15:13:31.431326 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:31.431357 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:13:31.750416 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Mar-16 15:13:31.750480 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.000157
+2018-Mar-16 15:13:31.750533 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.000157
+2018-Mar-16 15:13:31.750566 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 300
+loaded okay
+Try to send Qsst to TYPE SST2 
+2018-Mar-16 15:13:31.751078 : VoltVarCtrl.cpp : Status(4):
+	Detected MQTT Device SST2
+
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:13:31.751227 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:13:31.751264 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:31.751696 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2018-Mar-16 15:13:31.751736 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:31.753891 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2018-Mar-16 15:13:31.753931 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:33.461650 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.000105
+2018-Mar-16 15:13:33.462262 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.000297625
+2018-Mar-16 15:13:33.462424 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.00044825
+2018-Mar-16 15:13:35.850577 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Mar-16 15:13:35.850635 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00.000105
+2018-Mar-16 15:13:35.850667 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:13:35.850698 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:13:35.850734 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 01111000000000000000000000000000
+2018-Mar-16 15:13:35.850774 : GroupManagement.cpp : Status(4):
+	Group Float : 4.2039e-44
+2018-Mar-16 15:13:35.850850 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Up (In Group)
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000105
+Time left in phase: 00:00:00.529734
+
+2018-Mar-16 15:13:35.992053 : GroupManagement.cpp : Notice(5):
+	Updated peer set (UPDATE)
+2018-Mar-16 15:13:36.381003 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Mar-16 15:13:36.381054 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00.000105
+2018-Mar-16 15:13:36.381086 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:36.381111 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:13:36.700171 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Mar-16 15:13:36.700231 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.000105
+2018-Mar-16 15:13:36.700280 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.000105
+2018-Mar-16 15:13:36.700306 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-Mar-16 15:13:36.700380 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: arrogate:5002
+Real Power got from SST1 is 300
+loaded okay
+Try to send Qsst to TYPE SST2 
+2018-Mar-16 15:13:36.700763 : VoltVarCtrl.cpp : Status(4):
+	Detected MQTT Device SST2
+
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:13:36.700923 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:13:36.700953 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:36.702941 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2018-Mar-16 15:13:36.702979 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:36.703080 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2018-Mar-16 15:13:36.703114 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:40.800492 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Mar-16 15:13:40.800547 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00.000105
+2018-Mar-16 15:13:40.800576 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:13:40.800608 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:13:40.800657 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 00111000000000000000000000000000
+2018-Mar-16 15:13:40.800691 : GroupManagement.cpp : Status(4):
+	Group Float : 3.92364e-44
+2018-Mar-16 15:13:40.800762 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Unknown
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000105
+Time left in phase: 00:00:00.529736
+
+2018-Mar-16 15:13:40.847889 : CProtocolSR.cpp : Warn(3):
+	Connection to arrogate:5001 has lost 4 messages. Attempting to reconnect.
+2018-Mar-16 15:13:41.331106 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Mar-16 15:13:41.331437 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00.000105
+2018-Mar-16 15:13:41.331735 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:41.332053 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:13:41.651932 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Mar-16 15:13:41.651984 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00.000105
+2018-Mar-16 15:13:41.652009 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-Mar-16 15:13:41.652126 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2018-Mar-16 15:13:41.652156 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+Real Power got from SST1 is 300
+2018-Mar-16 15:13:41.652365 : CConnectionManager.cpp : Warn(3):
+	Connection to arrogate:5001 has gone stale 
+2018-Mar-16 15:13:41.652464 : CConnectionManager.cpp : Warn(3):
+	EP = 127.0.1.1:5001
+loaded okay
+Try to send Qsst to TYPE SST2 
+2018-Mar-16 15:13:41.652612 : VoltVarCtrl.cpp : Status(4):
+	Detected MQTT Device SST2
+
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:13:41.652744 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2018-Mar-16 15:13:41.652776 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:41.652822 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:13:41.652852 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:43.461849 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.000158
+2018-Mar-16 15:13:43.462139 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.0002752
+2018-Mar-16 15:13:43.462386 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.0004094
+2018-Mar-16 15:13:45.751138 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Mar-16 15:13:45.751196 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00.000158
+2018-Mar-16 15:13:45.751226 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:13:45.751258 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:13:45.751308 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 00111000000000000000000000000000
+2018-Mar-16 15:13:45.751342 : GroupManagement.cpp : Status(4):
+	Group Float : 3.92364e-44
+2018-Mar-16 15:13:45.751413 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Unknown
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000158
+Time left in phase: 00:00:00.528732
+
+2018-Mar-16 15:13:46.280559 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 1) for 0 ms
+2018-Mar-16 15:13:46.280622 : CBroker.cpp : Notice(5):
+	Phase: gm for 0ms offset 00:00:00.000158
+2018-Mar-16 15:13:46.280673 : CBroker.cpp : Notice(5):
+	Phase: sc for 320ms offset 00:00:00.000158
+2018-Mar-16 15:13:46.280703 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:46.280733 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:13:46.600903 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Mar-16 15:13:46.601233 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.000158
+2018-Mar-16 15:13:46.601535 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.000158
+2018-Mar-16 15:13:46.601825 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 300
+loaded okay
+Try to send Qsst to TYPE SST2 
+2018-Mar-16 15:13:46.602530 : VoltVarCtrl.cpp : Status(4):
+	Detected MQTT Device SST2
+
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:13:46.603022 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:13:46.603320 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:46.603661 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2018-Mar-16 15:13:46.603979 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:46.604503 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2018-Mar-16 15:13:46.604968 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:48.890046 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient/1:Connect
+2018-Mar-16 15:13:48.890097 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient/1:Connect
+2018-Mar-16 15:13:48.890132 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: DGIClient
+2018-Mar-16 15:13:48.892666 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5001): 0.679135
+2018-Mar-16 15:13:48.898735 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST2/1:Connect
+2018-Mar-16 15:13:48.898777 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST2/1:Connect
+2018-Mar-16 15:13:48.898820 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST2
+2018-Mar-16 15:13:48.898852 : CMqttAdapter.cpp : Status(4):
+	Dropped duplicate join message for device SST2
+2018-Mar-16 15:13:48.898909 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST3/1:Connect
+2018-Mar-16 15:13:48.898944 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST3/1:Connect
+2018-Mar-16 15:13:48.898978 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST3
+2018-Mar-16 15:13:48.899009 : CMqttAdapter.cpp : Status(4):
+	Dropped duplicate join message for device SST3
+2018-Mar-16 15:13:48.936211 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST1/1:Connect
+2018-Mar-16 15:13:48.936267 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/SST1/1:Connect
+2018-Mar-16 15:13:48.936305 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: SST1
+2018-Mar-16 15:13:48.936336 : CMqttAdapter.cpp : Status(4):
+	Dropped duplicate join message for device SST1
+2018-Mar-16 15:13:50.702129 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 528 ms
+2018-Mar-16 15:13:50.702490 : CBroker.cpp : Notice(5):
+	Phase: gm for 528ms offset 00:00:00.000158
+2018-Mar-16 15:13:50.702834 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:13:50.703018 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:13:50.703073 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 00111000000000000000000000000000
+2018-Mar-16 15:13:50.703107 : GroupManagement.cpp : Status(4):
+	Group Float : 3.92364e-44
+2018-Mar-16 15:13:50.703174 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289385 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Unknown
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.000158
+Time left in phase: 00:00:00.526958
+
+2018-Mar-16 15:13:50.842061 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2018-Mar-16 15:13:50.842113 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289386 (arrogate:5002) 
+2018-Mar-16 15:13:50.842236 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2018-Mar-16 15:13:51.052377 : GroupManagement.cpp : Notice(5):
+	+ State change: NORMAL: 944
+2018-Mar-16 15:13:51.052720 : GroupManagement.cpp : Notice(5):
+	Updated Peer Set.
+2018-Mar-16 15:13:51.231303 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Mar-16 15:13:51.231446 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00.000158
+2018-Mar-16 15:13:51.231476 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:51.231510 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:13:51.550583 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Mar-16 15:13:51.550643 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.000158
+2018-Mar-16 15:13:51.550692 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.000158
+2018-Mar-16 15:13:51.550721 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-Mar-16 15:13:51.550792 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: arrogate:5002
+Real Power got from SST1 is 300
+loaded okay
+Try to send Qsst to TYPE SST2 
+2018-Mar-16 15:13:51.551177 : VoltVarCtrl.cpp : Status(4):
+	Detected MQTT Device SST2
+
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:13:51.551369 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:13:51.551404 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:51.551479 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2018-Mar-16 15:13:51.551514 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:51.552179 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2018-Mar-16 15:13:51.552489 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:13:52.988453 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient/1:Connect
+2018-Mar-16 15:13:52.988504 : CMqttAdapter.cpp : Status(4):
+	MQTT message receivedjoin/DGIClient/1:Connect
+2018-Mar-16 15:13:52.988539 : CMqttAdapter.cpp : Status(4):
+	Received a join message for device: DGIClient
+2018-Mar-16 15:13:52.988565 : CMqttAdapter.cpp : Status(4):
+	Dropped duplicate join message for device DGIClient
+2018-Mar-16 15:13:53.462177 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.419915
+2018-Mar-16 15:13:53.882101 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.000254417
+2018-Mar-16 15:13:53.882260 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.000370417
+2018-Mar-16 15:13:56.072232 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 108 ms
+2018-Mar-16 15:13:56.072505 : CBroker.cpp : Notice(5):
+	Phase: gm for 108ms offset 00:00:00.419915
+2018-Mar-16 15:13:56.072734 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:13:56.072961 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:13:56.073226 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 00111000000000000000000000000000
+2018-Mar-16 15:13:56.073259 : GroupManagement.cpp : Status(4):
+	Group Float : 3.92364e-44
+2018-Mar-16 15:13:56.073320 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289386 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Unknown
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.419915
+Time left in phase: 00:00:00.106916
+
+2018-Mar-16 15:13:56.181471 : CBroker.cpp : Notice(5):
+	Phase: sc for 320ms offset 00:00:00.419915
+2018-Mar-16 15:13:56.181514 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:13:56.181540 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:13:56.501588 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Mar-16 15:13:56.501652 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00.419915
+2018-Mar-16 15:13:56.501687 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Real Power got from SST1 is 300
+loaded okay
+Try to send Qsst to TYPE SST2 
+2018-Mar-16 15:13:56.502130 : VoltVarCtrl.cpp : Status(4):
+	Detected MQTT Device SST2
+
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:13:56.502289 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:13:56.502324 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:14:00.600782 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Mar-16 15:14:00.600845 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00.419915
+2018-Mar-16 15:14:00.600878 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:14:00.600910 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:14:00.600957 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 00111000000000000000000000000000
+2018-Mar-16 15:14:00.600998 : GroupManagement.cpp : Status(4):
+	Group Float : 3.92364e-44
+2018-Mar-16 15:14:00.601071 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289386 Leader:arrogate:5002
+SYSTEM NODES
+Node: arrogate:5001 State: Unknown
+Node: arrogate:5002 State: Up (Coordinator)
+Node: arrogate:5003 State: Up (Me)
+Node: arrogate:5004 State: Up (In Group)
+FID state: 0
+Current Skew: 00:00:00.419915
+Time left in phase: 00:00:00.529719
+
+2018-Mar-16 15:14:00.601232 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2018-Mar-16 15:14:00.601265 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289387 (arrogate:5002) 
+2018-Mar-16 15:14:00.601401 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2018-Mar-16 15:14:01.022203 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 441
+2018-Mar-16 15:14:01.022531 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289385 (arrogate:5003)
+2018-Mar-16 15:14:01.022599 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 454
+2018-Mar-16 15:14:01.022635 : GroupManagement.cpp : Notice(5):
+	+ State Change NORMAL : 457
+2018-Mar-16 15:14:01.022763 : GroupManagement.cpp : Notice(5):
+	Updated peer set (UPDATE)
+2018-Mar-16 15:14:01.131237 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Mar-16 15:14:01.131304 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00.419915
+2018-Mar-16 15:14:01.131338 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:14:01.131369 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:14:01.450450 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Mar-16 15:14:01.450520 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.419915
+2018-Mar-16 15:14:01.450576 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.419915
+2018-Mar-16 15:14:01.450607 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-Mar-16 15:14:01.450677 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: arrogate:5003
+Real Power got from SST1 is 300
+loaded okay
+Try to send Qsst to TYPE SST2 
+2018-Mar-16 15:14:01.450930 : VoltVarCtrl.cpp : Status(4):
+	Detected MQTT Device SST2
+
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:14:01.451069 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:14:01.451103 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:14:03.882130 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00.419913
+2018-Mar-16 15:14:03.882230 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5004): 0.000234786
+2018-Mar-16 15:14:03.882366 : CClockSynchronizer.cpp : Notice(5):
+	Computed lag (arrogate:5002): 0.000336
+2018-Mar-16 15:14:05.550663 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Mar-16 15:14:05.550724 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00.419913
+2018-Mar-16 15:14:05.550750 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Mar-16 15:14:05.550779 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Mar-16 15:14:05.550907 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10010000000000000000000000000000
+2018-Mar-16 15:14:05.550957 : GroupManagement.cpp : Status(4):
+	Group Float : 1.26117e-44
+2018-Mar-16 15:14:05.551023 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: arrogate:5003, Group: 1804289385 Leader:arrogate:5003
+SYSTEM NODES
+Node: arrogate:5001 State: Unknown
+Node: arrogate:5002 State: Unknown
+Node: arrogate:5003 State: Up (Me, Coordinator)
+Node: arrogate:5004 State: Unknown
+FID state: 0
+Current Skew: 00:00:00.419913
+Time left in phase: 00:00:00.529645
+
+2018-Mar-16 15:14:05.691311 : CPhysicalTopology.cpp : Warn(3):
+	No topology configuration file specified
+2018-Mar-16 15:14:05.691362 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Mar-16 15:14:05.828266 : GroupManagement.cpp : Warn(3):
+	Unsolicited AreYouCoordinator response from arrogate:5002
+2018-Mar-16 15:14:05.968461 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 1084
+2018-Mar-16 15:14:05.968516 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289388 (arrogate:5002) 
+2018-Mar-16 15:14:05.968642 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 1127
+2018-Mar-16 15:14:06.081310 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Mar-16 15:14:06.081373 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00.419913
+2018-Mar-16 15:14:06.081405 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Mar-16 15:14:06.081441 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Mar-16 15:14:06.400499 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Mar-16 15:14:06.400565 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00.419913
+2018-Mar-16 15:14:06.400620 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00.419913
+2018-Mar-16 15:14:06.400652 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+2018-Mar-16 15:14:06.400728 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: arrogate:5002
+Real Power got from SST1 is 300
+loaded okay
+Try to send Qsst to TYPE SST2 
+2018-Mar-16 15:14:06.401144 : VoltVarCtrl.cpp : Status(4):
+	Detected MQTT Device SST2
+
+SSTs under Slave #2: SST2 
+
+2018-Mar-16 15:14:06.401290 : StateCollection.cpp : Warn(3):
+	hase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTIII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTI"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_delta_message {
+    control_factor: 2
+    phase_measurement: 3
+    reading_location: "SSTII"
+  }
+}
+Dropped message of unexpected type:
+recipient_module: "vvc"
+volt_var_message {
+  voltage_del2018-Mar-16 15:14:06.401357 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5003
+2018-Mar-16 15:14:06.401390 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:14:06.677965 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5002
+2018-Mar-16 15:14:06.678287 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Mar-16 15:14:06.683300 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: arrogate:5004
+2018-Mar-16 15:14:06.683597 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3

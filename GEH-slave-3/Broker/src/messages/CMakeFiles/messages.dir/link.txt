@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmessages.a  CMakeFiles/messages.dir/ProtocolMessage.pb.cc.o CMakeFiles/messages.dir/ModuleMessage.pb.cc.o CMakeFiles/messages.dir/ClockSynchronizer.pb.cc.o CMakeFiles/messages.dir/LoadBalancing.pb.cc.o CMakeFiles/messages.dir/GroupManagement.pb.cc.o CMakeFiles/messages.dir/StateCollection.pb.cc.o CMakeFiles/messages.dir/VoltVarCtrl.pb.cc.o
+/usr/bin/ranlib libmessages.a
