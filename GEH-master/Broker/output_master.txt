@@ -1,0 +1,10 @@
+Script started on Tue 10 Apr 2018 11:20:36 AM EDT
+]0;root@arrogate: ~/Downloads/GEH_vvo_mqtt-test_Copy/GEH-master/Broker[01;32mroot@arrogate[00m:[01;34m~/Downloads/GEH_vvo_mqtt-test_Copy/GEH-master/Broker[00m# ls
+CMakeCache.txt       [0m[01;34mCMakeModules[0m  master_test.DGIx   [01;34msrc[0m
+[01;34mCMakeFiles[0m           [01;34mconfig[0m        output_master.txt  [01;34mtesting[0m
+cmake_install.cmake  Makefile      Pload_vec.mat
+CMakeLists.txt       master.DGIx   [01;32mPosixBroker[0m
+]0;root@arrogate: ~/Downloads/GEH_vvo_mqtt-test_Copy/GEH-master/Broker[01;32mroot@arrogate[00m:[01;34m~/Downloads/GEH_vvo_mqtt-test_Copy/GEH-master/Broker[00m# exit
+exit
+
+Script done on Tue 10 Apr 2018 11:21:25 AM EDT
